@@ -5,16 +5,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#0b0d10",
-        panel: "#14181d",
-        edge: "#242b33",
-        muted: "#8b97a5",
-        red: { flag: "#e5484d" },
-        amber: { flag: "#f5a524" },
-        green: { flag: "#46a758" },
+        bg: "var(--bg)",
+        panel: "var(--panel)",
+        panel2: "var(--panel-2)",
+        edge: "var(--edge)",
+        ink: "var(--text)",
+        muted: "var(--muted)",
+        dim: "var(--dim)",
+        sig: {
+          red: "var(--sig-red)",
+          amber: "var(--sig-amber)",
+          green: "var(--sig-green)",
+          dim: "var(--sig-dim)",
+        },
+        link: "var(--link)",
       },
       fontFamily: {
-        mono: ["ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"],
+      },
+      borderRadius: {
+        DEFAULT: "2px",
+        sm: "1px",
       },
     },
   },

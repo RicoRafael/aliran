@@ -7,12 +7,12 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import type { MapSite } from "@/lib/data";
 
 const URGENCY = [
-  { max: 12, color: "#e5484d", label: "≤ 12 months" },
-  { max: 24, color: "#f5a524", label: "12–24 months" },
+  { max: 12, color: "#ff4d4f", label: "≤ 12 months" },
+  { max: 24, color: "#ffb020", label: "12–24 months" },
   { max: 36, color: "#d8b31a", label: "24–36 months" },
-  { max: Infinity, color: "#46a758", label: "> 36 months" },
+  { max: Infinity, color: "#3fb950", label: "> 36 months" },
 ];
-const NO_DATA = { color: "#5a646f", label: "no dated licence" };
+const NO_DATA = { color: "#4b535e", label: "no dated licence" };
 
 function urgencyColor(months: number | null) {
   if (months === null || months === undefined) return NO_DATA.color;
@@ -31,12 +31,11 @@ const STYLE: StyleSpecification = {
       type: "raster",
       tiles: ["https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png"],
       tileSize: 256,
-      attribution: "© OpenStreetMap contributors © CARTO",
     },
   },
   layers: [
-    { id: "bg", type: "background", paint: { "background-color": "#0b0d10" } },
-    { id: "carto", type: "raster", source: "carto", paint: { "raster-opacity": 0.8 } },
+    { id: "bg", type: "background", paint: { "background-color": "#08090b" } },
+    { id: "carto", type: "raster", source: "carto", paint: { "raster-opacity": 0.78 } },
   ],
 };
 
@@ -53,9 +52,8 @@ export default function SiteMap({ sites }: { sites: MapSite[] }) {
       style: STYLE,
       center: [117.5, -2.2],
       zoom: 4.1,
-      // customAttribution is explicit rather than relying on the source spec:
-      // OSM and CARTO both require visible attribution, and source-level
-      // attribution was not being collected by the control.
+      // Explicit customAttribution: OSM and CARTO both require visible credit,
+      // and source-level attribution was not being collected by the control.
       attributionControl: {
         compact: false,
         customAttribution:
@@ -81,8 +79,8 @@ export default function SiteMap({ sites }: { sites: MapSite[] }) {
         height: `${size}px`,
         borderRadius: "50%",
         background: urgencyColor(months),
-        border: "1.5px solid rgba(255,255,255,0.55)",
-        opacity: "0.85",
+        border: "1px solid rgba(255,255,255,0.5)",
+        opacity: "0.88",
         cursor: "pointer",
         padding: "0",
       });
@@ -101,53 +99,43 @@ export default function SiteMap({ sites }: { sites: MapSite[] }) {
   }, [sites]);
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
+    <div className="grid gap-3 lg:grid-cols-[1fr_300px]">
       <div className="relative">
-        <div
-          ref={container}
-          className="h-[70vh] min-h-[420px] w-full overflow-hidden rounded border border-edge"
-        />
+        <div ref={container} className="panel h-[68vh] min-h-[420px] w-full overflow-hidden" />
         {tilesFailed && (
-          <p className="absolute bottom-3 left-3 rounded bg-panel/90 px-3 py-1.5 text-xs text-muted">
-            Basemap tiles unavailable — site positions are still accurate.
+          <p className="panel absolute bottom-3 left-3 px-3 py-1.5 text-[11px] text-muted">
+            Basemap tiles unavailable &mdash; site positions are still accurate.
           </p>
         )}
-        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted">
-          <span className="uppercase tracking-wider">Soonest licence expiry</span>
+        <div className="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-[10.5px] text-muted">
+          <span className="label">Soonest licence expiry</span>
           {URGENCY.map((u) => (
             <span key={u.label} className="flex items-center gap-1.5">
-              <i
-                className="inline-block h-2.5 w-2.5 rounded-full"
-                style={{ background: u.color }}
-              />
+              <i className="inline-block h-2 w-2" style={{ background: u.color }} />
               {u.label}
             </span>
           ))}
           <span className="flex items-center gap-1.5">
-            <i
-              className="inline-block h-2.5 w-2.5 rounded-full"
-              style={{ background: NO_DATA.color }}
-            />
+            <i className="inline-block h-2 w-2" style={{ background: NO_DATA.color }} />
             {NO_DATA.label}
           </span>
           <span>Circle size &prop; annual production</span>
         </div>
       </div>
 
-      <aside className="rounded border border-edge bg-panel p-4">
+      <aside className="panel p-3.5">
         {selected ? (
           <div>
-            <div className="mb-1 text-xs uppercase tracking-wider text-muted">
-              {selected.commodity ?? "—"}
-            </div>
-            <h3 className="text-base font-medium">{selected.name ?? selected.slug}</h3>
+            <div className="label mb-1">{selected.commodity ?? "—"}</div>
+            <h3 className="text-[14px] font-medium">{selected.name ?? selected.slug}</h3>
             <a
               href={`/issuer/${selected.ticker}/`}
-              className="text-sm text-[#7bb0ff] hover:underline"
+              className="text-[12px] text-link hover:underline"
             >
-              {selected.ticker} — {selected.company_name ?? ""}
+              <span className="mono">{selected.ticker}</span> &mdash;{" "}
+              {selected.company_name ?? ""}
             </a>
-            <dl className="mt-4 space-y-2 text-xs">
+            <dl className="mt-3.5 space-y-1.5 text-[11px]">
               <Row
                 label="Annual production"
                 value={
@@ -170,7 +158,7 @@ export default function SiteMap({ sites }: { sites: MapSite[] }) {
                   selected.site_months_to_expiry === null
                     ? selected.issuer_months_to_expiry === null
                       ? "no dated licence"
-                      : `${selected.issuer_months_to_expiry} mo (issuer-level)`
+                      : `${selected.issuer_months_to_expiry} mo (issuer)`
                     : `${selected.site_months_to_expiry} months`
                 }
               />
@@ -182,17 +170,16 @@ export default function SiteMap({ sites }: { sites: MapSite[] }) {
             {selected.production !== null &&
               selected.reserves !== null &&
               selected.unit !== selected.reserve_unit && (
-                <p className="mt-3 border-t border-edge pt-3 text-[0.6875rem] leading-relaxed text-muted">
-                  Production is reported in{" "}
-                  <span className="font-mono">{selected.unit}</span> and reserves in{" "}
-                  <span className="font-mono">{selected.reserve_unit}</span> — contained metal
+                <p className="mt-3 border-t pt-3 text-[10.5px] leading-relaxed text-muted">
+                  Production is in <span className="mono">{selected.unit}</span> and reserves in{" "}
+                  <span className="mono">{selected.reserve_unit}</span> &mdash; contained metal
                   versus ore tonnage. They are not divisible, so no reserve life is shown for
                   this site.
                 </p>
               )}
           </div>
         ) : (
-          <p className="text-sm text-muted">
+          <p className="text-[12px] leading-relaxed text-muted">
             {sites.length} production sites with disclosed coordinates. Click a circle for site
             detail and a link to the issuer dossier.
           </p>
@@ -206,7 +193,7 @@ function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between gap-3">
       <dt className="text-muted">{label}</dt>
-      <dd className="text-right font-mono">{value}</dd>
+      <dd className="mono text-right">{value}</dd>
     </div>
   );
 }

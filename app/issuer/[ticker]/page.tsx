@@ -43,18 +43,21 @@ export default async function IssuerPage({
 
   return (
     <div>
-      <Link href="/" className="text-xs uppercase tracking-wider text-muted hover:text-white">
+      <Link href="/" className="label hover:text-ink">
         ← Screener
       </Link>
 
-      <div className="mb-6 mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-        <h1 className="text-2xl font-semibold tracking-tight">{sym}</h1>
-        <span className="text-sm text-muted">{m.company_name ?? m.symbol}</span>
-        <span className="text-xs text-muted">{m.sub_sector ?? ""}</span>
-        <span className="ml-auto font-mono text-sm">{fmtIDR(m.market_cap)}</span>
+      <div className="mb-5 mt-2 flex flex-wrap items-baseline gap-x-4 gap-y-1 border-b pb-3">
+        <h1 className="mono text-[26px] font-medium leading-none tracking-tight">{sym}</h1>
+        <span className="text-[13px] text-muted">{m.company_name ?? m.symbol}</span>
+        <span className="label">{m.sub_sector ?? ""}</span>
+        <span className="ml-auto flex items-baseline gap-2">
+          <span className="label">Market cap</span>
+          <span className="mono text-[14px]">{fmtIDR(m.market_cap)}</span>
+        </span>
       </div>
 
-      <div className="mb-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
+      <div className="mb-7 grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-5">
         <Card
           label="Licence cliff 24m"
           value={fmtPct(m.lci_24m)}
@@ -100,7 +103,7 @@ export default async function IssuerPage({
       </div>
 
       <Section title="Licence expiry profile">
-        <div className="rounded border border-edge bg-panel p-5">
+        <div className="panel p-4">
           <div className="space-y-3">
             {buckets.map((b) => {
               const n = counts[b.key] ?? 0;
@@ -134,7 +137,7 @@ export default async function IssuerPage({
       </Section>
 
       <Section title={`Licences by expiry — soonest first (${soon.length} of ${licenses.length})`}>
-        <div className="overflow-x-auto rounded border border-edge">
+        <div className="panel overflow-x-auto">
           <table className="data">
             <thead>
               <tr>
@@ -215,7 +218,7 @@ export default async function IssuerPage({
 
       {perfByYear.size > 0 && (
         <Section title="Production history">
-          <div className="overflow-x-auto rounded border border-edge">
+          <div className="panel overflow-x-auto">
             <table className="data">
               <thead>
                 <tr>
@@ -256,7 +259,7 @@ export default async function IssuerPage({
 
       {data.sites.length > 0 && (
         <Section title={`Production sites (${data.sites.length})`}>
-          <div className="overflow-x-auto rounded border border-edge">
+          <div className="panel overflow-x-auto">
             <table className="data">
               <thead>
                 <tr>
@@ -291,7 +294,7 @@ export default async function IssuerPage({
       )}
 
       <Section title="Attribution chain">
-        <div className="rounded border border-edge bg-panel p-5 text-xs">
+        <div className="panel p-4 text-[11.5px]">
           <p className="mb-3 text-muted">
             {sym} is linked to the following licence-holding entities. Confidence
             reflects how the link was established — an API-supplied ticker is certain, an
@@ -299,7 +302,7 @@ export default async function IssuerPage({
           </p>
           <ul className="grid gap-1 sm:grid-cols-2">
             {(m.entities ?? []).map((slug) => (
-              <li key={slug} className="font-mono text-[0.75rem] text-[#a9b4c0]">
+              <li key={slug} className="mono text-[11px] text-muted">
                 {slug}
               </li>
             ))}
@@ -317,10 +320,8 @@ export default async function IssuerPage({
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="mb-8">
-      <h2 className="mb-3 text-sm font-medium uppercase tracking-wider text-[#a9b4c0]">
-        {title}
-      </h2>
+    <section className="mb-7">
+      <h2 className="rule label mb-2.5">{title}</h2>
       {children}
     </section>
   );
@@ -338,15 +339,15 @@ function Card({
   note?: string;
 }) {
   return (
-    <div className="rounded border border-edge bg-panel px-4 py-3">
+    <div className="panel px-3 py-2.5">
       <div className="flex items-start justify-between gap-2">
-        <span className="text-[0.6875rem] uppercase tracking-wider text-muted">{label}</span>
+        <span className="label">{label}</span>
         {flag !== "unknown" && <Flag flag={flag} />}
       </div>
-      <div className="mt-2 font-mono text-2xl">
+      <div className="mono mt-1.5 text-[22px] leading-none">
         <FlagCell flag={flag}>{value}</FlagCell>
       </div>
-      {note && <div className="mt-1 text-[0.6875rem] text-muted">{note}</div>}
+      {note && <div className="mt-1.5 text-[10.5px] leading-snug text-muted">{note}</div>}
     </div>
   );
 }

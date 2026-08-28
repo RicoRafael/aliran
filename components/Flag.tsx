@@ -3,7 +3,7 @@ import type { Flag as FlagType } from "@/lib/data";
 const LABEL: Record<FlagType, string> = {
   red: "high",
   amber: "watch",
-  neutral: "ok",
+  neutral: "clear",
   unknown: "n/a",
 };
 
