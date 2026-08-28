@@ -1,0 +1,45 @@
+# ── SECRETS ─────────────────────────────────────────────────────────────
+# Hackathon rule: "Remove all API keys before submitting."
+# A leaked key is the ONLY permitted post-freeze commit. Never need it.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ── Node / Next.js ──────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+*.tsbuildinfo
+.vercel
+
+# ── OS / editor ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ── Build artefacts ─────────────────────────────────────────────────────
+# NOTE: data/strata.sqlite IS committed on purpose — it is the offline
+# replay path that lets a judge clone and run with zero API credits.
+# Same for fixtures/raw/ and docs/credit-ledger.jsonl (proof of metered use).
+etl/scratch/
+*.log
+
+# ── Private strategy — never publish ────────────────────────────────────
+SECTORS-HACKATHON-MASTER.md

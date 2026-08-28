@@ -1,0 +1,5 @@
+requests>=2.32
+python-dotenv>=1.0
+rapidfuzz>=3.9        # tier-4 fuzzy entity matching
+PyYAML>=6.0           # overrides/entity_map.yaml
+pytest>=8.3
