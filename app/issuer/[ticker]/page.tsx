@@ -148,7 +148,8 @@ export default async function IssuerPage({
                 <th>Province</th>
                 <th>Holder</th>
                 <th className="num">Share</th>
-                <th>Link</th>
+                <th>Attributed via</th>
+                <th>WIUP code</th>
               </tr>
             </thead>
             <tbody>
@@ -181,9 +182,18 @@ export default async function IssuerPage({
                   <td className="text-xs text-muted">{l.commodity_type ?? "—"}</td>
                   <td className="text-xs text-muted">{l.province ?? "—"}</td>
                   <td className="text-xs text-muted">{l.company_name ?? "—"}</td>
-                  <td className="num text-xs">
-                    <span title={`${l.resolution_method} · confidence ${l.resolution_confidence}`}>
-                      {fmtPct(l.attributable_share, 0)}
+                  <td className="num text-xs">{fmtPct(l.attributable_share, 0)}</td>
+                  <td className="text-xs">
+                    <span
+                      className={`chip ${
+                        l.resolution_confidence >= 0.95
+                          ? "flag-neutral"
+                          : l.resolution_confidence >= 0.85
+                            ? "flag-amber"
+                            : "flag-red"
+                      }`}
+                    >
+                      {l.resolution_method.replace(/_/g, " ")} {l.resolution_confidence.toFixed(2)}
                     </span>
                   </td>
                   <td className="text-xs">
@@ -196,8 +206,10 @@ export default async function IssuerPage({
         </div>
         <p className="mt-2 text-xs text-muted">
           WIUP code is the government permit identifier — the lookup key in Indonesia&rsquo;s
-          ESDM Minerba records. Share is the ownership-weighted attribution to {sym}; hover it
-          for the resolution method and confidence.
+          ESDM Minerba records. Share is the ownership-weighted attribution to {sym}, and
+          &ldquo;attributed via&rdquo; shows how that link was established, with its confidence
+          score — an API-supplied ticker is certain, an ownership-tree link near-certain, a name
+          match weaker.
         </p>
       </Section>
 
