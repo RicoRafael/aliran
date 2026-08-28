@@ -38,6 +38,10 @@ LEDGER = ROOT / "docs" / "credit-ledger.jsonl"
 # Always pass `cost=` explicitly for these. The default of 1 will under-count.
 DEFAULT_COST = 1
 
+# Measured the hard way: ~60 calls at 0.35s spacing trips the rate limiter.
+MAX_RETRIES = 8
+THROTTLE_SECONDS = float(os.environ.get("STRATA_THROTTLE", 0.9))
+
 
 class CreditExhausted(RuntimeError):
     """Raised instead of spending past the tranche cap."""
@@ -45,6 +49,10 @@ class CreditExhausted(RuntimeError):
 
 class OfflineMiss(RuntimeError):
     """STRATA_OFFLINE=1 and the response is not in the cache."""
+
+
+class RateLimited(RuntimeError):
+    """Rate limited past MAX_RETRIES. No credits billed; safe to re-run."""
 
 
 class Sectors:
@@ -60,6 +68,7 @@ class Sectors:
         self.spent = 0
         self.calls = 0
         self.cache_hits = 0
+        self.throttled = 0
 
         if not self.offline and not self.api_key:
             raise RuntimeError(
@@ -111,7 +120,7 @@ class Sectors:
             )
 
         resp = None
-        for attempt in range(5):
+        for attempt in range(MAX_RETRIES):
             resp = requests.get(
                 f"{BASE}{path}",
                 headers={"Authorization": self.api_key},  # raw key, no Bearer
@@ -121,11 +130,19 @@ class Sectors:
             # 429 and 503 are free by policy — back off without burning credits.
             if resp.status_code in (429, 503):
                 self._log(path, params, resp.status_code, 0)
-                time.sleep(2**attempt)
+                self.throttled += 1
+                retry_after = resp.headers.get("Retry-After")
+                wait = float(retry_after) if retry_after and retry_after.isdigit() else min(45.0, 1.5 * 2**attempt)
+                time.sleep(wait)
                 continue
             break
 
         assert resp is not None
+        if resp.status_code in (429, 503):
+            raise RateLimited(
+                f"{resp.status_code} on {path} after {MAX_RETRIES} retries. "
+                f"No credits were billed. Re-run — cached pages will not refetch."
+            )
         billed = cost if (resp.status_code < 300 or resp.status_code == 404) else 0
         self.spent += billed
         self.calls += 1
@@ -136,7 +153,7 @@ class Sectors:
 
         blob.parent.mkdir(parents=True, exist_ok=True)
         blob.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-        time.sleep(0.35)  # docs are explicit: sleep(0.3) is not optional
+        time.sleep(THROTTLE_SECONDS)
         return data
 
     # Spike P2/P3 measured the server cap: limit is clamped to 30 regardless of
@@ -171,5 +188,6 @@ class Sectors:
     def summary(self) -> str:
         return (
             f"credits spent={self.spent}/{self.cap} · live calls={self.calls} "
-            f"· cache hits={self.cache_hits} · ledger={LEDGER.relative_to(ROOT)}"
+            f"· cache hits={self.cache_hits} · throttled={self.throttled} "
+            f"· ledger={LEDGER.relative_to(ROOT)}"
         )

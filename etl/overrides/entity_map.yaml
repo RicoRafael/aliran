@@ -1,0 +1,41 @@
+# Hand-reviewed entity mappings.
+#
+# Committed on purpose. Where the API cannot connect a licence-holding company
+# to a listed issuer, a human decision goes here — visible and checkable, not
+# hidden inside the pipeline. Resolutions from this file are tagged
+# method: manual, confidence: 1.00 and are labelled as manual in the UI.
+#
+# RULE: only add an entry you can source. Put the source in `evidence`.
+# A wrong mapping here is worse than a visible gap, because it silently
+# attributes physical assets to the wrong company's valuation.
+
+mappings: []
+
+# Format:
+#
+# mappings:
+#   - company_slug: pt-example-coal
+#     symbol: XXXX.JK
+#     attributable_share: 0.90
+#     evidence: "2024 annual report p.42 — 90% held via PT Example Holdings"
+#     reviewed_by: rico
+#     reviewed_on: 2026-08-27
+
+
+# ── Known coverage gaps, awaiting sourced review ─────────────────────────
+#
+# These are the largest licence holders the ownership graph could not resolve
+# after the T1 run. Each is left UNRESOLVED deliberately. Do not guess.
+#
+#   pt-berau-coal                    78,004 ha  — largest single unresolved holder
+#   pt-intitirta-primasakti          24,998 ha
+#   pt-asmin-bara-bronang            24,980 ha
+#   pt-suprabari-mapanindo-mineral   23,940 ha
+#   pt-baramutiara-prima             19,340 ha
+#   pt-kartika-selabumi-mining       15,000 ha
+#   pt-gorontalo-sejahtera-mining    14,570 ha
+#   pt-bahari-cakrawala-sebuku       14,243 ha
+#
+# The API returned no listed parent for these. Resolving them requires an
+# annual report or IDX filing, which is a human task. Until then the product
+# reports them as unattributed, and the coverage figure reflects that.

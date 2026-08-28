@@ -39,6 +39,7 @@ Thumbs.db
 # replay path that lets a judge clone and run with zero API credits.
 # Same for fixtures/raw/ and docs/credit-ledger.jsonl (proof of metered use).
 etl/scratch/
+etl/out/
 *.log
 
 # ── Private strategy — never publish ────────────────────────────────────
