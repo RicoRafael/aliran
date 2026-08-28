@@ -177,23 +177,6 @@
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
    "operation_status": "production",
-   "production_volume": null,
-   "sales_volume": null,
-   "strip_ratio": null,
-   "overburden_removal_volume": null,
-   "reserves": 59.6,
-   "reserve_unit": "Mt",
-   "resources": 860.7,
-   "resource_unit": "Mt",
-   "measurement_year": null,
-   "company_slug": "pt-antang-gunung-meratus"
-  },
-  {
-   "year": 2023,
-   "commodity_type": "Coal",
-   "commodity_sub_type": "Thermal Coal",
-   "unit": "Mt",
-   "operation_status": "production",
    "production_volume": 21.57,
    "sales_volume": 21.88,
    "strip_ratio": 5.52,
@@ -204,6 +187,23 @@
    "resource_unit": "Mt",
    "measurement_year": null,
    "company_slug": "pt-baramulti-suksessarana-tbk"
+  },
+  {
+   "year": 2023,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": null,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": 59.6,
+   "reserve_unit": "Mt",
+   "resources": 860.7,
+   "resource_unit": "Mt",
+   "measurement_year": null,
+   "company_slug": "pt-antang-gunung-meratus"
   }
  ],
  "sites": []

@@ -28,6 +28,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/" className="hover:text-white">
                 Screener
               </Link>
+              <Link href="/map/" className="hover:text-white">
+                Sites
+              </Link>
             </nav>
           </div>
         </header>

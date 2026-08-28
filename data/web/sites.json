@@ -1,6 +1,12 @@
 {
  "as_of": "2026-08-28",
  "count": 56,
+ "bounds": {
+  "min_lat": -8.962866,
+  "max_lat": 3.099412,
+  "min_lon": 101.745389,
+  "max_lon": 124.321
+ },
  "sites": [
   {
    "slug": "batubara-bumbun",
@@ -12,7 +18,14 @@
    "unit": "Mt",
    "reserves": 55.5,
    "reserve_unit": "Mt",
-   "symbol": "ADMR.JK"
+   "symbol": "ADMR.JK",
+   "ticker": "ADMR",
+   "company_name": "PT Alamtri Minerals Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 215.7,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 7
   },
   {
    "slug": "haju-block",
@@ -24,7 +37,14 @@
    "unit": "Mt",
    "reserves": 1.5,
    "reserve_unit": "Mt",
-   "symbol": "ADMR.JK"
+   "symbol": "ADMR.JK",
+   "ticker": "ADMR",
+   "company_name": "PT Alamtri Minerals Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 215.7,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 7
   },
   {
    "slug": "batubara-dahlia",
@@ -36,7 +56,14 @@
    "unit": "Mt",
    "reserves": 5.6,
    "reserve_unit": "Mt",
-   "symbol": "ADMR.JK"
+   "symbol": "ADMR.JK",
+   "ticker": "ADMR",
+   "company_name": "PT Alamtri Minerals Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 215.7,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 7
   },
   {
    "slug": "batubara-muara-ritan-1",
@@ -48,7 +75,14 @@
    "unit": "Mt",
    "reserves": 240.946,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-muara-ritan-2",
@@ -60,7 +94,14 @@
    "unit": "Mt",
    "reserves": 70.2,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-beruang",
@@ -72,7 +113,14 @@
    "unit": "Mt",
    "reserves": 0.36,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-gunung-sari-2",
@@ -84,7 +132,14 @@
    "unit": "Mt",
    "reserves": 409.0,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-lisat",
@@ -96,7 +151,14 @@
    "unit": "Mt",
    "reserves": 5.86,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-long-lalang-2",
@@ -108,7 +170,14 @@
    "unit": "Mt",
    "reserves": 374.08,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "batubara-sungai-cuka-1",
@@ -120,7 +189,14 @@
    "unit": "Mt",
    "reserves": 7.86,
    "reserve_unit": "Mt",
-   "symbol": "BYAN.JK"
+   "symbol": "BYAN.JK",
+   "ticker": "BYAN",
+   "company_name": "Bayan Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.3,
+   "lci_24m": 0.05740391323657988,
+   "lci_flag": "neutral",
+   "owned_entities": 16
   },
   {
    "slug": "tutupan-utara",
@@ -132,7 +208,14 @@
    "unit": "Mt",
    "reserves": 316.9,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "tutupan-selatan",
@@ -144,7 +227,14 @@
    "unit": "Mt",
    "reserves": 56.2,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "paringin-utara",
@@ -156,7 +246,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "wara-i",
@@ -168,7 +265,14 @@
    "unit": "Mt",
    "reserves": 243.8,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "wara-ii",
@@ -180,7 +284,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-tawahan",
@@ -192,7 +303,14 @@
    "unit": "Mt",
    "reserves": 65.7,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-gunung-kembang",
@@ -204,7 +322,14 @@
    "unit": "Mt",
    "reserves": 148.9,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-piyait",
@@ -216,7 +341,14 @@
    "unit": "Mt",
    "reserves": 20.5,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-melapeh-baru-1",
@@ -228,7 +360,14 @@
    "unit": "Mt",
    "reserves": 23.5,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-danum-paro",
@@ -240,7 +379,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-hamarung",
@@ -252,7 +398,14 @@
    "unit": "Mt",
    "reserves": 32.4,
    "reserve_unit": "Mt",
-   "symbol": "AADI.JK"
+   "symbol": "AADI.JK",
+   "ticker": "AADI",
+   "company_name": "PT Adaro Andalan Indonesia Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 30.8,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 9
   },
   {
    "slug": "batubara-benangin-1",
@@ -264,7 +417,14 @@
    "unit": "Mt",
    "reserves": 8.5,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-tukul",
@@ -276,7 +436,14 @@
    "unit": "Mt",
    "reserves": 1.1,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-pelakan-1",
@@ -288,7 +455,14 @@
    "unit": "Mt",
    "reserves": 7.3,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-batalang",
@@ -300,7 +474,14 @@
    "unit": "Mt",
    "reserves": 4.49,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-karendan-2",
@@ -312,7 +493,14 @@
    "unit": "Mt",
    "reserves": 56.35,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-sungai-mega",
@@ -324,7 +512,14 @@
    "unit": "Mt",
    "reserves": 4.063282,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-jelmu-sibak",
@@ -336,7 +531,14 @@
    "unit": "Mt",
    "reserves": 2.9,
    "reserve_unit": "Mt",
-   "symbol": "ITMG.JK"
+   "symbol": "ITMG.JK",
+   "ticker": "ITMG",
+   "company_name": "Indo Tambangraya Megah Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 19.1,
+   "lci_24m": 0.32026452100954206,
+   "lci_flag": "red",
+   "owned_entities": 8
   },
   {
    "slug": "kintap",
@@ -348,7 +550,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "sarongga",
@@ -360,7 +569,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "muliajumbang",
@@ -372,7 +588,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "asam-asam",
@@ -384,7 +607,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "satui",
@@ -396,7 +626,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "senakin",
@@ -408,7 +645,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "batubara-batulicin",
@@ -420,7 +664,14 @@
    "unit": "Mt",
    "reserves": 0.0,
    "reserve_unit": "Mt",
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "sangatta",
@@ -432,7 +683,14 @@
    "unit": "Mt",
    "reserves": 583.0,
    "reserve_unit": "Mt",
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "bengalon",
@@ -444,7 +702,14 @@
    "unit": "Mt",
    "reserves": 96.0,
    "reserve_unit": "Mt",
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "batubara-kertadewa",
@@ -456,7 +721,14 @@
    "unit": "Mt",
    "reserves": 1305.998,
    "reserve_unit": "Mt",
-   "symbol": "BUMI.JK"
+   "symbol": "BUMI.JK",
+   "ticker": "BUMI",
+   "company_name": "Bumi Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 50.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "batubara-lubuk-bintialo-2",
@@ -468,7 +740,14 @@
    "unit": "Mt",
    "reserves": 0.0,
    "reserve_unit": "Mt",
-   "symbol": "GEMS.JK"
+   "symbol": "GEMS.JK",
+   "ticker": "GEMS",
+   "company_name": "Golden Energy Mines Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 13.1,
+   "lci_24m": 0.06232931338666409,
+   "lci_flag": "neutral",
+   "owned_entities": 5
   },
   {
    "slug": "batubara-sumber-arum",
@@ -480,7 +759,14 @@
    "unit": "Mt",
    "reserves": 3.016608,
    "reserve_unit": "Mt",
-   "symbol": "GEMS.JK"
+   "symbol": "GEMS.JK",
+   "ticker": "GEMS",
+   "company_name": "Golden Energy Mines Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 13.1,
+   "lci_24m": 0.06232931338666409,
+   "lci_flag": "neutral",
+   "owned_entities": 5
   },
   {
    "slug": "batubara-jujuhan-1",
@@ -492,7 +778,14 @@
    "unit": "Mt",
    "reserves": 2.904,
    "reserve_unit": "Mt",
-   "symbol": "GEMS.JK"
+   "symbol": "GEMS.JK",
+   "ticker": "GEMS",
+   "company_name": "Golden Energy Mines Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 13.1,
+   "lci_24m": 0.06232931338666409,
+   "lci_flag": "neutral",
+   "owned_entities": 5
   },
   {
    "slug": "batubara-liangbuah",
@@ -504,7 +797,14 @@
    "unit": "Mt",
    "reserves": 0.0,
    "reserve_unit": "Mt",
-   "symbol": "GEMS.JK"
+   "symbol": "GEMS.JK",
+   "ticker": "GEMS",
+   "company_name": "Golden Energy Mines Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 13.1,
+   "lci_24m": 0.06232931338666409,
+   "lci_flag": "neutral",
+   "owned_entities": 5
   },
   {
    "slug": "batubara-siung-malopot",
@@ -516,7 +816,14 @@
    "unit": "Mt",
    "reserves": 0.74,
    "reserve_unit": "Mt",
-   "symbol": "CUAN.JK"
+   "symbol": "CUAN.JK",
+   "ticker": "CUAN",
+   "company_name": "PT Petrindo Jaya Kreasi Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 33.7,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 8
   },
   {
    "slug": "batubara-bukit-kendi-1",
@@ -528,7 +835,14 @@
    "unit": "Mt",
    "reserves": 0.91,
    "reserve_unit": "Mt",
-   "symbol": "PTBA.JK"
+   "symbol": "PTBA.JK",
+   "ticker": "PTBA",
+   "company_name": "Bukit Asam Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 7.4,
+   "lci_24m": 0.07315645727662895,
+   "lci_flag": "neutral",
+   "owned_entities": 6
   },
   {
    "slug": "tambang-bakan",
@@ -540,7 +854,14 @@
    "unit": "koz",
    "reserves": 6.7,
    "reserve_unit": "Mt",
-   "symbol": "PSAB.JK"
+   "symbol": "PSAB.JK",
+   "ticker": "PSAB",
+   "company_name": "J Resources Asia Pasifik Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 56.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 4
   },
   {
    "slug": "batubara-mukti-jaya",
@@ -552,7 +873,14 @@
    "unit": "Mt",
    "reserves": 9.87,
    "reserve_unit": "Mt",
-   "symbol": "HRUM.JK"
+   "symbol": "HRUM.JK",
+   "ticker": "HRUM",
+   "company_name": "Harum Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 2.1,
+   "lci_24m": 0.10673586044302733,
+   "lci_flag": "amber",
+   "owned_entities": 6
   },
   {
    "slug": "batubara-sangkurang",
@@ -564,7 +892,14 @@
    "unit": "Mt",
    "reserves": 1.81,
    "reserve_unit": "Mt",
-   "symbol": "HRUM.JK"
+   "symbol": "HRUM.JK",
+   "ticker": "HRUM",
+   "company_name": "Harum Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 2.1,
+   "lci_24m": 0.10673586044302733,
+   "lci_flag": "amber",
+   "owned_entities": 6
   },
   {
    "slug": "batubara-mulawarman-1",
@@ -576,7 +911,14 @@
    "unit": "Mt",
    "reserves": 1.139,
    "reserve_unit": "Mt",
-   "symbol": "HRUM.JK"
+   "symbol": "HRUM.JK",
+   "ticker": "HRUM",
+   "company_name": "Harum Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 2.1,
+   "lci_24m": 0.10673586044302733,
+   "lci_flag": "amber",
+   "owned_entities": 6
   },
   {
    "slug": "batubara-kerta-buana-b",
@@ -588,7 +930,14 @@
    "unit": "Mt",
    "reserves": 1.06,
    "reserve_unit": "Mt",
-   "symbol": "HRUM.JK"
+   "symbol": "HRUM.JK",
+   "ticker": "HRUM",
+   "company_name": "Harum Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 2.1,
+   "lci_24m": 0.10673586044302733,
+   "lci_flag": "amber",
+   "owned_entities": 6
   },
   {
    "slug": "batubara-birawa",
@@ -600,7 +949,14 @@
    "unit": "Mt",
    "reserves": 21.1,
    "reserve_unit": "Mt",
-   "symbol": "HRUM.JK"
+   "symbol": "HRUM.JK",
+   "ticker": "HRUM",
+   "company_name": "Harum Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 2.1,
+   "lci_24m": 0.10673586044302733,
+   "lci_flag": "amber",
+   "owned_entities": 6
   },
   {
    "slug": "batubara-legai",
@@ -612,7 +968,14 @@
    "unit": "Mt",
    "reserves": 396.9,
    "reserve_unit": "Mt",
-   "symbol": "INDY.JK"
+   "symbol": "INDY.JK",
+   "ticker": "INDY",
+   "company_name": "Indika Energy Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 78.5,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 3
   },
   {
    "slug": "batu-hijau",
@@ -624,7 +987,14 @@
    "unit": "Mt",
    "reserves": 705.0,
    "reserve_unit": "Mt",
-   "symbol": "AMMN.JK"
+   "symbol": "AMMN.JK",
+   "ticker": "AMMN",
+   "company_name": "PT Amman Mineral Internasional Tbk.",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 42.1,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 2
   },
   {
    "slug": "tujuh-bukit",
@@ -636,7 +1006,14 @@
    "unit": "koz",
    "reserves": 82.1,
    "reserve_unit": "Mt",
-   "symbol": "MDKA.JK"
+   "symbol": "MDKA.JK",
+   "ticker": "MDKA",
+   "company_name": "PT Merdeka Copper Gold Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 160.9,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 3
   },
   {
    "slug": "batubara-sarijaya",
@@ -648,7 +1025,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "ARII.JK"
+   "symbol": "ARII.JK",
+   "ticker": "ARII",
+   "company_name": "Atlas Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 36.2,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 11
   },
   {
    "slug": "batubara-dasaq-1",
@@ -660,7 +1044,14 @@
    "unit": "Mt",
    "reserves": null,
    "reserve_unit": null,
-   "symbol": "ARII.JK"
+   "symbol": "ARII.JK",
+   "ticker": "ARII",
+   "company_name": "Atlas Resources Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 36.2,
+   "lci_24m": 0.0,
+   "lci_flag": "neutral",
+   "owned_entities": 11
   },
   {
    "slug": "batubara-pelencau",
@@ -672,7 +1063,14 @@
    "unit": "Mt",
    "reserves": 1.67,
    "reserve_unit": "Mt",
-   "symbol": "MBAP.JK"
+   "symbol": "MBAP.JK",
+   "ticker": "MBAP",
+   "company_name": "PT Mitrabara Adiperdana Tbk",
+   "site_months_to_expiry": null,
+   "issuer_months_to_expiry": 10.8,
+   "lci_24m": 0.3723218614195124,
+   "lci_flag": "red",
+   "owned_entities": 3
   }
  ]
 }

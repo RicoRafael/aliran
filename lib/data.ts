@@ -101,6 +101,34 @@ export type SiteCoord = {
   symbol?: string;
 };
 
+export type MapSite = SiteCoord & {
+  ticker: string;
+  company_name: string | null;
+  site_months_to_expiry: number | null;
+  issuer_months_to_expiry: number | null;
+  lci_24m: number | null;
+  lci_flag: Flag;
+  owned_entities: number;
+};
+
+export type SitesFile = {
+  as_of: string;
+  count: number;
+  bounds: { min_lat: number; max_lat: number; min_lon: number; max_lon: number } | null;
+  sites: MapSite[];
+};
+
+export function getSites(): SitesFile {
+  return (
+    readJson<SitesFile>("sites.json") ?? {
+      as_of: "",
+      count: 0,
+      bounds: null,
+      sites: [],
+    }
+  );
+}
+
 export type Index = {
   as_of: string;
   generated_at: string;

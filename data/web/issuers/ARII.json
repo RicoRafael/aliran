@@ -160,10 +160,27 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-diva-kencana-borneo"
+   "company_slug": "pt-banyan-koalindo-lestari"
   },
   {
    "year": 2023,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": null,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": null,
+   "reserve_unit": null,
+   "resources": null,
+   "resource_unit": null,
+   "measurement_year": null,
+   "company_slug": "pt-diva-kencana-borneo"
+  },
+  {
+   "year": 2024,
    "commodity_type": "Coal",
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
@@ -212,23 +229,6 @@
    "resource_unit": null,
    "measurement_year": null,
    "company_slug": "pt-diva-kencana-borneo"
-  },
-  {
-   "year": 2024,
-   "commodity_type": "Coal",
-   "commodity_sub_type": "Thermal Coal",
-   "unit": "Mt",
-   "operation_status": "production",
-   "production_volume": null,
-   "sales_volume": null,
-   "strip_ratio": null,
-   "overburden_removal_volume": null,
-   "reserves": null,
-   "reserve_unit": null,
-   "resources": null,
-   "resource_unit": null,
-   "measurement_year": null,
-   "company_slug": "pt-banyan-koalindo-lestari"
   }
  ],
  "sites": [

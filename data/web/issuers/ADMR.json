@@ -338,12 +338,12 @@
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
-   "reserves": 5.6,
+   "reserves": 17.7,
    "reserve_unit": "Mt",
-   "resources": 15.0,
+   "resources": 50.9,
    "resource_unit": "Mt",
    "measurement_year": 2021,
-   "company_slug": "pt-sumber-barito-coal"
+   "company_slug": "pt-kalteng-coal"
   },
   {
    "year": 2023,
@@ -355,12 +355,12 @@
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
-   "reserves": 17.7,
+   "reserves": 5.6,
    "reserve_unit": "Mt",
-   "resources": 50.9,
+   "resources": 15.0,
    "resource_unit": "Mt",
    "measurement_year": 2021,
-   "company_slug": "pt-kalteng-coal"
+   "company_slug": "pt-sumber-barito-coal"
   },
   {
    "year": 2024,
@@ -418,17 +418,17 @@
    "commodity_type": "Coal",
    "commodity_sub_type": "Metallurgical Coal",
    "unit": "Mt",
-   "operation_status": "development",
-   "production_volume": null,
-   "sales_volume": null,
-   "strip_ratio": null,
-   "overburden_removal_volume": null,
-   "reserves": 5.6,
+   "operation_status": "production",
+   "production_volume": 6.63,
+   "sales_volume": 5.62,
+   "strip_ratio": 3.55,
+   "overburden_removal_volume": 23.55,
+   "reserves": 177.2,
    "reserve_unit": "Mt",
-   "resources": 15.0,
+   "resources": 982.9,
    "resource_unit": "Mt",
-   "measurement_year": 2021,
-   "company_slug": "pt-sumber-barito-coal"
+   "measurement_year": 2024,
+   "company_slug": "pt-adaro-minerals-indonesia-tbk"
   },
   {
    "year": 2024,
@@ -452,17 +452,17 @@
    "commodity_type": "Coal",
    "commodity_sub_type": "Metallurgical Coal",
    "unit": "Mt",
-   "operation_status": "production",
-   "production_volume": 6.63,
-   "sales_volume": 5.62,
-   "strip_ratio": 3.55,
-   "overburden_removal_volume": 23.55,
-   "reserves": 177.2,
+   "operation_status": "development",
+   "production_volume": null,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": 5.6,
    "reserve_unit": "Mt",
-   "resources": 982.9,
+   "resources": 15.0,
    "resource_unit": "Mt",
-   "measurement_year": 2024,
-   "company_slug": "pt-adaro-minerals-indonesia-tbk"
+   "measurement_year": 2021,
+   "company_slug": "pt-sumber-barito-coal"
   }
  ],
  "sites": [

@@ -17,6 +17,14 @@ WEB = ROOT / "data" / "web"
 FLAG_ORDER = {"red": 0, "amber": 1, "neutral": 2, "unknown": 3}
 
 
+def _bounds(sites: list[dict]) -> dict | None:
+    lats = [s["lat"] for s in sites if s.get("lat") is not None]
+    lons = [s["lon"] for s in sites if s.get("lon") is not None]
+    if not lats or not lons:
+        return None
+    return {"min_lat": min(lats), "max_lat": max(lats), "min_lon": min(lons), "max_lon": max(lons)}
+
+
 def _license_rows(licenses: list[dict], resolution: dict, as_of: dt.date) -> dict[str, list[dict]]:
     by_ticker: dict[str, list[dict]] = defaultdict(list)
     for lic in licenses:
@@ -136,13 +144,39 @@ def export(metrics: list[dict], licenses: list[dict], resolution: dict,
         (WEB / "issuers" / f"{symbol.replace('.JK', '')}.json").write_text(
             json.dumps(payload, indent=1, default=str), encoding="utf-8")
 
-    all_sites = [
-        {**s, "symbol": m["symbol"]}
-        for m in metrics for s in (m.get("site_coords") or [])
-    ]
+    all_sites = []
+    for m in metrics:
+        symbol = m["symbol"]
+        ticker = symbol.replace(".JK", "")
+        owned = {e for e in (m.get("entities") or [])}
+        future = [
+            l for l in lic_by_ticker.get(symbol, [])
+            if l["months_to_expiry"] is not None and l["months_to_expiry"] >= 0
+        ]
+        soonest = min((l["months_to_expiry"] for l in future), default=None)
+
+        for s in m.get("site_coords") or []:
+            site_licences = [l for l in future if l["company_slug"] == s.get("company_slug")]
+            site_soonest = min((l["months_to_expiry"] for l in site_licences), default=None)
+            all_sites.append({
+                **s,
+                "symbol": symbol,
+                "ticker": ticker,
+                "company_name": m.get("company_name"),
+                "site_months_to_expiry": site_soonest,
+                "issuer_months_to_expiry": soonest,
+                "lci_24m": m.get("lci_24m"),
+                "lci_flag": m.get("lci_flag"),
+                "owned_entities": len(owned),
+            })
+
     (WEB / "sites.json").write_text(
-        json.dumps({"as_of": as_of.isoformat(), "count": len(all_sites), "sites": all_sites},
-                   indent=1, default=str),
+        json.dumps({
+            "as_of": as_of.isoformat(),
+            "count": len(all_sites),
+            "bounds": _bounds(all_sites),
+            "sites": all_sites,
+        }, indent=1, default=str),
         encoding="utf-8",
     )
 

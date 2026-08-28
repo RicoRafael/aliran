@@ -371,23 +371,6 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-ratah-coal"
-  },
-  {
-   "year": 2021,
-   "commodity_type": "Coal",
-   "commodity_sub_type": "Thermal Coal",
-   "unit": "Mt",
-   "operation_status": "development",
-   "production_volume": null,
-   "sales_volume": null,
-   "strip_ratio": null,
-   "overburden_removal_volume": null,
-   "reserves": null,
-   "reserve_unit": null,
-   "resources": null,
-   "resource_unit": null,
-   "measurement_year": null,
    "company_slug": "pt-pari-coal"
   },
   {
@@ -408,7 +391,7 @@
    "company_slug": "pt-adaro-indonesia"
   },
   {
-   "year": 2022,
+   "year": 2021,
    "commodity_type": "Coal",
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
@@ -459,7 +442,7 @@
    "company_slug": "pt-adaro-indonesia"
   },
   {
-   "year": 2023,
+   "year": 2022,
    "commodity_type": "Coal",
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
@@ -510,7 +493,7 @@
    "company_slug": "pt-adaro-indonesia"
   },
   {
-   "year": 2024,
+   "year": 2023,
    "commodity_type": "Coal",
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
@@ -525,23 +508,6 @@
    "resource_unit": null,
    "measurement_year": null,
    "company_slug": "pt-ratah-coal"
-  },
-  {
-   "year": 2024,
-   "commodity_type": "Coal",
-   "commodity_sub_type": "Sub-bituminous & Metallurgical Coal",
-   "unit": "Mt",
-   "operation_status": "production",
-   "production_volume": 48.11,
-   "sales_volume": 55.8,
-   "strip_ratio": 4.51,
-   "overburden_removal_volume": 214.18,
-   "reserves": 819.0,
-   "reserve_unit": "Mt",
-   "resources": 4374.0,
-   "resource_unit": "Mt",
-   "measurement_year": 2024,
-   "company_slug": "pt-adaro-andalan-indonesia-tbk"
   },
   {
    "year": 2024,
@@ -566,16 +532,16 @@
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
    "operation_status": "production",
-   "production_volume": null,
-   "sales_volume": null,
-   "strip_ratio": null,
-   "overburden_removal_volume": null,
-   "reserves": 32.4,
+   "production_volume": 5.74,
+   "sales_volume": 5.82,
+   "strip_ratio": 2.65,
+   "overburden_removal_volume": 15.21,
+   "reserves": 148.9,
    "reserve_unit": "Mt",
-   "resources": 78.9,
+   "resources": 357.6,
    "resource_unit": "Mt",
    "measurement_year": 2024,
-   "company_slug": "pt-semesta-centramas"
+   "company_slug": "pt-mustika-indah-permai"
   },
   {
    "year": 2024,
@@ -600,33 +566,33 @@
    "commodity_sub_type": "Thermal Coal",
    "unit": "Mt",
    "operation_status": "production",
-   "production_volume": 0.02,
+   "production_volume": null,
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
-   "reserves": 20.5,
+   "reserves": 32.4,
    "reserve_unit": "Mt",
-   "resources": 57.2,
+   "resources": 78.9,
    "resource_unit": "Mt",
    "measurement_year": 2024,
-   "company_slug": "pt-paramitha-cipta-sarana"
+   "company_slug": "pt-semesta-centramas"
   },
   {
    "year": 2024,
    "commodity_type": "Coal",
-   "commodity_sub_type": "Thermal Coal",
+   "commodity_sub_type": "Sub-bituminous & Metallurgical Coal",
    "unit": "Mt",
    "operation_status": "production",
-   "production_volume": 5.74,
-   "sales_volume": 5.82,
-   "strip_ratio": 2.65,
-   "overburden_removal_volume": 15.21,
-   "reserves": 148.9,
+   "production_volume": 48.11,
+   "sales_volume": 55.8,
+   "strip_ratio": 4.51,
+   "overburden_removal_volume": 214.18,
+   "reserves": 819.0,
    "reserve_unit": "Mt",
-   "resources": 357.6,
+   "resources": 4374.0,
    "resource_unit": "Mt",
    "measurement_year": 2024,
-   "company_slug": "pt-mustika-indah-permai"
+   "company_slug": "pt-adaro-andalan-indonesia-tbk"
   },
   {
    "year": 2024,
@@ -644,6 +610,40 @@
    "resource_unit": "Mt",
    "measurement_year": 2024,
    "company_slug": "pt-adaro-indonesia"
+  },
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "development",
+   "production_volume": null,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": null,
+   "reserve_unit": null,
+   "resources": null,
+   "resource_unit": null,
+   "measurement_year": null,
+   "company_slug": "pt-ratah-coal"
+  },
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 0.02,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": 20.5,
+   "reserve_unit": "Mt",
+   "resources": 57.2,
+   "resource_unit": "Mt",
+   "measurement_year": 2024,
+   "company_slug": "pt-paramitha-cipta-sarana"
   }
  ],
  "sites": [
