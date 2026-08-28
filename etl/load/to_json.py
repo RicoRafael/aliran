@@ -100,8 +100,11 @@ def export(metrics: list[dict], licenses: list[dict], resolution: dict,
             "production": m.get("production"),
             "strip_ratio_latest": m.get("strip_ratio_latest"),
             "strip_ratio_slope": m.get("strip_ratio_slope"),
+            "strip_ratio_years": m.get("strip_ratio_years"),
             "strip_flag": m.get("strip_flag"),
             "reserve_replacement_ratio": m.get("reserve_replacement_ratio"),
+            "reserve_replacement_flag": m.get("reserve_replacement_flag"),
+            "reserve_replacement_outlier": m.get("reserve_replacement_outlier"),
             "hhi": m.get("hhi"),
             "hhi_top_country": m.get("hhi_top_country"),
             "hhi_max_share": m.get("hhi_max_share"),
@@ -109,9 +112,12 @@ def export(metrics: list[dict], licenses: list[dict], resolution: dict,
             "site_count": len(m.get("site_coords") or []),
         })
 
+    # Flag band first, then absolute exposure within the band. Ranking purely by
+    # percentage put a 1,030-hectare issuer above a 36,178-hectare one, which is
+    # true but useless: it buries the rows that can actually move a valuation.
     index.sort(key=lambda r: (
         FLAG_ORDER.get(r["lci_flag"], 3),
-        -(r["lci_24m"] or 0),
+        -(r["exposed_ha_24m"] or 0),
         -(r["licensed_ha_weighted"] or 0),
     ))
 

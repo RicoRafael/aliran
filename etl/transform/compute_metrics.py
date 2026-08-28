@@ -7,6 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from metrics.thresholds import RRR_AMBER, RRR_GREEN, RRR_OUTLIER_ABS
 from metrics.track_a import (
     destination_hhi,
     license_cliff_index,
@@ -16,6 +17,23 @@ from metrics.track_a import (
     strip_ratio_drift,
 )
 from transform.normalise import units_comparable
+
+
+def rrr_flag(ratio: float | None) -> str:
+    """Flag the replacement ratio itself — an outlier is not a grade."""
+    if ratio is None:
+        return "unknown"
+    if abs(ratio - 1.0) > RRR_OUTLIER_ABS:
+        return "unknown"
+    if ratio >= RRR_GREEN:
+        return "neutral"
+    if ratio >= RRR_AMBER:
+        return "amber"
+    return "red"
+
+
+def rrr_is_outlier(ratio: float | None) -> bool:
+    return ratio is not None and abs(ratio - 1.0) > RRR_OUTLIER_ABS
 
 MIN_CONFIDENCE = 0.85
 
@@ -265,11 +283,17 @@ def compute(
             "production": dominant["production"] if dominant else None,
             "unit_mismatch": dominant["unit_mismatch"] if dominant else False,
             "rli_entities_contributing": dominant["entities_contributing"] if dominant else 0,
+            # Level and slope are separate facts. Strip-ratio level is not
+            # comparable between mines (it depends on geology), so only the
+            # slope carries a flag — the level is rendered without colour.
             "strip_ratio_latest": strip_points[-1][1] if strip_points else None,
             "strip_ratio_points": strip_points,
+            "strip_ratio_years": len(strip_points),
             "strip_ratio_slope": slope,
             "strip_flag": srd_flag(slope),
             "reserve_replacement_ratio": agg["rrr"],
+            "reserve_replacement_flag": rrr_flag(agg["rrr"]),
+            "reserve_replacement_outlier": rrr_is_outlier(agg["rrr"]),
             "reserve_replacement_entities": agg["rrr_entity_count"],
             "hhi": hhi.get("hhi"),
             "hhi_top_country": hhi.get("top_country"),

@@ -40,9 +40,12 @@
   "rli_entities_contributing": 0,
   "strip_ratio_latest": null,
   "strip_ratio_points": [],
+  "strip_ratio_years": 0,
   "strip_ratio_slope": null,
   "strip_flag": "unknown",
   "reserve_replacement_ratio": null,
+  "reserve_replacement_flag": "unknown",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 0,
   "hhi": null,
   "hhi_top_country": null,
@@ -249,12 +252,12 @@
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
-   "reserves": 18.4,
+   "reserves": 2.32,
    "reserve_unit": "Mt",
-   "resources": 75.3,
+   "resources": 6.8,
    "resource_unit": "Mt",
-   "measurement_year": 2016,
-   "company_slug": "pt-suma-heksa-sinergi"
+   "measurement_year": 2019,
+   "company_slug": "pt-linge-mineral-resources"
   },
   {
    "year": 2024,
@@ -283,12 +286,12 @@
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
-   "reserves": 2.32,
+   "reserves": 18.4,
    "reserve_unit": "Mt",
-   "resources": 6.8,
+   "resources": 75.3,
    "resource_unit": "Mt",
-   "measurement_year": 2019,
-   "company_slug": "pt-linge-mineral-resources"
+   "measurement_year": 2016,
+   "company_slug": "pt-suma-heksa-sinergi"
   },
   {
    "year": 2024,

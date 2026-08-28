@@ -46,9 +46,12 @@
   "rli_entities_contributing": 0,
   "strip_ratio_latest": null,
   "strip_ratio_points": [],
+  "strip_ratio_years": 0,
   "strip_ratio_slope": null,
   "strip_flag": "unknown",
   "reserve_replacement_ratio": null,
+  "reserve_replacement_flag": "unknown",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 0,
   "hhi": null,
   "hhi_top_country": null,
@@ -160,7 +163,7 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-banyan-koalindo-lestari"
+   "company_slug": "pt-diva-kencana-borneo"
   },
   {
    "year": 2023,
@@ -177,7 +180,7 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-diva-kencana-borneo"
+   "company_slug": "pt-banyan-koalindo-lestari"
   },
   {
    "year": 2024,
@@ -194,7 +197,7 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-banyan-koalindo-lestari"
+   "company_slug": "pt-diva-kencana-borneo"
   },
   {
    "year": 2024,
@@ -228,7 +231,7 @@
    "resources": null,
    "resource_unit": null,
    "measurement_year": null,
-   "company_slug": "pt-diva-kencana-borneo"
+   "company_slug": "pt-banyan-koalindo-lestari"
   }
  ],
  "sites": [

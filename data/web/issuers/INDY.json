@@ -55,9 +55,12 @@
     5.7
    ]
   ],
+  "strip_ratio_years": 4,
   "strip_ratio_slope": 0.26000000000000006,
   "strip_flag": "red",
   "reserve_replacement_ratio": 0.34309623430962327,
+  "reserve_replacement_flag": "red",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 1,
   "hhi": null,
   "hhi_top_country": null,

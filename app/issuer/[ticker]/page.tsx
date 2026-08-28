@@ -74,21 +74,39 @@ export default async function IssuerPage({
               : "reserves unavailable"
           }
         />
-        <Card
-          label="Strip ratio"
-          value={fmtNum(m.strip_ratio_latest, 2)}
-          flag={m.strip_flag}
-          note={
-            m.strip_ratio_slope === null
-              ? "no multi-year series"
-              : `${m.strip_ratio_slope > 0 ? "+" : ""}${fmtNum(m.strip_ratio_slope, 3)} / yr`
-          }
-        />
+        {/* Level is uncoloured on purpose: strip ratio depends on geology and is
+            not comparable between mines. The trend is the signal, so only the
+            delta beneath carries colour. */}
+        <div className="panel px-3 py-2.5">
+          <span className="label">Strip ratio</span>
+          <div className="mono mt-1.5 text-[22px] leading-none">
+            {fmtNum(m.strip_ratio_latest, 2)}
+          </div>
+          <div className="mt-1.5 text-[10.5px] leading-snug">
+            {m.strip_ratio_slope === null ? (
+              <span className="text-muted">no multi-year series</span>
+            ) : (
+              <FlagCell flag={m.strip_flag}>
+                {m.strip_ratio_slope > 0 ? "▲" : m.strip_ratio_slope < 0 ? "▼" : ""}
+                {fmtNum(Math.abs(m.strip_ratio_slope), 3)} /yr over{" "}
+                {m.strip_ratio_years ?? 0} yrs
+              </FlagCell>
+            )}
+          </div>
+        </div>
         <Card
           label="Reserve replacement"
-          value={fmtNum(m.reserve_replacement_ratio, 2)}
-          flag="unknown"
-          note="1.0 = replaced what it mined"
+          value={
+            m.reserve_replacement_ratio === null
+              ? "—"
+              : `${fmtNum(m.reserve_replacement_ratio, 2)}${m.reserve_replacement_outlier ? "*" : ""}`
+          }
+          flag={m.reserve_replacement_outlier ? "unknown" : m.reserve_replacement_flag}
+          note={
+            m.reserve_replacement_outlier
+              ? "* magnitude indicates a reserve restatement, not a replacement rate"
+              : "1.0 = replaced what it mined"
+          }
         />
         <Card
           label="Buyer concentration"

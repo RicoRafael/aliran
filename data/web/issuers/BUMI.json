@@ -56,9 +56,12 @@
     8.719812583668006
    ]
   ],
+  "strip_ratio_years": 4,
   "strip_ratio_slope": 0.5137885358877073,
   "strip_flag": "red",
   "reserve_replacement_ratio": 0.6710536410485671,
+  "reserve_replacement_flag": "amber",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 2,
   "hhi": null,
   "hhi_top_country": null,

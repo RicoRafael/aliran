@@ -42,9 +42,12 @@
     3.9
    ]
   ],
+  "strip_ratio_years": 1,
   "strip_ratio_slope": null,
   "strip_flag": "unknown",
   "reserve_replacement_ratio": null,
+  "reserve_replacement_flag": "unknown",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 0,
   "hhi": null,
   "hhi_top_country": null,

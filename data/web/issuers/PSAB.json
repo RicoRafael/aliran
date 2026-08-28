@@ -39,9 +39,12 @@
   "rli_entities_contributing": 0,
   "strip_ratio_latest": null,
   "strip_ratio_points": [],
+  "strip_ratio_years": 0,
   "strip_ratio_slope": null,
   "strip_flag": "unknown",
   "reserve_replacement_ratio": null,
+  "reserve_replacement_flag": "unknown",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 0,
   "hhi": null,
   "hhi_top_country": null,
@@ -185,8 +188,8 @@
    "commodity_type": "Gold",
    "commodity_sub_type": null,
    "unit": "koz",
-   "operation_status": "inactive",
-   "production_volume": null,
+   "operation_status": "production",
+   "production_volume": 94.398,
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
@@ -194,8 +197,8 @@
    "reserve_unit": null,
    "resources": null,
    "resource_unit": null,
-   "measurement_year": 2024,
-   "company_slug": "pt-sago-prima-pratama"
+   "measurement_year": null,
+   "company_slug": "pt-j-resources-bolaang-mongondow"
   },
   {
    "year": 2024,
@@ -219,8 +222,8 @@
    "commodity_type": "Gold",
    "commodity_sub_type": null,
    "unit": "koz",
-   "operation_status": "production",
-   "production_volume": 94.398,
+   "operation_status": "inactive",
+   "production_volume": null,
    "sales_volume": null,
    "strip_ratio": null,
    "overburden_removal_volume": null,
@@ -228,8 +231,8 @@
    "reserve_unit": null,
    "resources": null,
    "resource_unit": null,
-   "measurement_year": null,
-   "company_slug": "pt-j-resources-bolaang-mongondow"
+   "measurement_year": 2024,
+   "company_slug": "pt-sago-prima-pratama"
   }
  ],
  "sites": [

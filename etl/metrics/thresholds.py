@@ -27,6 +27,17 @@ SRD_MIN_POINTS = 3
 SRD_RED = 0.10
 SRD_AMBER = 0.02
 
+# ── Reserve Replacement Ratio ───────────────────────────────────────────
+# 1.0 means the company replaced exactly what it mined. Below that it is
+# depleting its asset base.
+RRR_GREEN = 1.0
+RRR_AMBER = 0.5
+
+# A ratio this far from 1.0 is not mining activity — it is a reserve
+# restatement, a reclassification, or an acquisition/divestment. Flag it as an
+# outlier rather than presenting it as a replacement rate.
+RRR_OUTLIER_ABS = 3.0
+
 # ── A4 Destination Concentration ────────────────────────────────────────
 HHI_AMBER = 0.40
 SINGLE_COUNTRY_RED = 0.50

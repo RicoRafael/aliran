@@ -26,8 +26,8 @@ export default function Screener() {
           <h1 className="mb-1 text-[20px] font-medium tracking-tight">Licence exposure</h1>
           <p className="max-w-3xl text-[12px] leading-relaxed text-muted">
             IDX-listed resource issuers linked to mining licences through their ownership
-            trees. Ranked by the share of attributable licensed hectares whose permit expires
-            within 24 months.
+            trees. Grouped by 24-month licence-cliff severity, then ranked by the hectares
+            actually exposed.
           </p>
         </div>
         <div className="flex gap-6">
@@ -51,6 +51,7 @@ export default function Screener() {
               <th className="num">Cliff 12m</th>
               <th className="num">Res. life</th>
               <th className="num">Strip</th>
+              <th className="num">Strip Δ/yr</th>
               <th className="num">Replacement</th>
               <th className="num">Attrib. ha</th>
               <th className="num">Ent.</th>
@@ -77,10 +78,30 @@ export default function Screener() {
                     {i.rli_years === null ? "—" : fmtNum(i.rli_years, 1)}
                   </FlagCell>
                 </td>
+                <td className="num text-ink">{fmtNum(i.strip_ratio_latest, 2)}</td>
                 <td className="num">
-                  <FlagCell flag={i.strip_flag}>{fmtNum(i.strip_ratio_latest, 2)}</FlagCell>
+                  {i.strip_ratio_slope === null ? (
+                    <span className="text-dim">—</span>
+                  ) : (
+                    <FlagCell flag={i.strip_flag}>
+                      {i.strip_ratio_slope > 0 ? "▲" : i.strip_ratio_slope < 0 ? "▼" : "—"}
+                      {fmtNum(Math.abs(i.strip_ratio_slope), 2)}
+                    </FlagCell>
+                  )}
                 </td>
-                <td className="num text-muted">{fmtNum(i.reserve_replacement_ratio, 2)}</td>
+                <td className="num">
+                  {i.reserve_replacement_ratio === null ? (
+                    <span className="text-dim">—</span>
+                  ) : i.reserve_replacement_outlier ? (
+                    <span className="text-dim" title="Magnitude indicates a reserve restatement, not a replacement rate">
+                      {fmtNum(i.reserve_replacement_ratio, 2)}*
+                    </span>
+                  ) : (
+                    <FlagCell flag={i.reserve_replacement_flag}>
+                      {fmtNum(i.reserve_replacement_ratio, 2)}
+                    </FlagCell>
+                  )}
+                </td>
                 <td className="num">{fmtNum(i.licensed_ha_weighted, 0)}</td>
                 <td className="num text-dim">{i.entity_count}</td>
                 <td className="num text-dim">{i.license_count}</td>
@@ -107,6 +128,11 @@ export default function Screener() {
           <i className="inline-block h-2 w-2" style={{ background: "var(--sig-dim)" }} />
           no data — not the same as clear
         </span>
+        <span>
+          Strip level is uncoloured: it depends on geology and is not comparable between
+          mines. Only the trend is flagged.
+        </span>
+        <span>* restatement, not a replacement rate</span>
         <span className="mono">generated {idx.generated_at}</span>
       </div>
 

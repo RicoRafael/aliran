@@ -30,8 +30,11 @@ export type Issuer = {
   production: number | null;
   strip_ratio_latest: number | null;
   strip_ratio_slope: number | null;
+  strip_ratio_years: number | null;
   strip_flag: Flag;
   reserve_replacement_ratio: number | null;
+  reserve_replacement_flag: Flag;
+  reserve_replacement_outlier: boolean;
   hhi: number | null;
   hhi_top_country: string | null;
   hhi_max_share: number | null;

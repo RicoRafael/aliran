@@ -58,9 +58,12 @@
     6.23
    ]
   ],
+  "strip_ratio_years": 4,
   "strip_ratio_slope": 0.4000000000000001,
   "strip_flag": "red",
   "reserve_replacement_ratio": 0.01920719248058843,
+  "reserve_replacement_flag": "red",
+  "reserve_replacement_outlier": false,
   "reserve_replacement_entities": 1,
   "hhi": 0.3292223395050411,
   "hhi_top_country": "Indonesia",
