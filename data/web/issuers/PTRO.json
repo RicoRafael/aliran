@@ -1,0 +1,96 @@
+{
+ "as_of": "2026-08-28",
+ "metrics": {
+  "symbol": "PTRO.JK",
+  "company_name": "Petrosea Tbk",
+  "sub_sector": "Oil, Gas & Coal",
+  "market_cap": 51186703750000,
+  "market_cap_rank": 47,
+  "entity_count": 2,
+  "entities": [
+   "pt-christian-eka-pratama",
+   "pt-petrosea-tbk"
+  ],
+  "license_count": 1,
+  "lci_12m": 0.0,
+  "lci_24m": 0.0,
+  "lci_36m": 0.0,
+  "expired_share": 0.0,
+  "licensed_ha_weighted": 4776.0,
+  "lci_flag": "neutral",
+  "lci_counts": {
+   "0_12m": 0,
+   "12_24m": 0,
+   "24_36m": 0,
+   "expired": 0,
+   "no_date": 0,
+   "total": 1
+  },
+  "rli_years": null,
+  "rli_flag": "unknown",
+  "dominant_commodity": "Coal",
+  "commodity_source": "licence_area",
+  "reserves": null,
+  "reserve_unit": null,
+  "production": null,
+  "unit_mismatch": false,
+  "rli_entities_contributing": 0,
+  "strip_ratio_latest": null,
+  "strip_ratio_points": [],
+  "strip_ratio_slope": null,
+  "strip_flag": "unknown",
+  "reserve_replacement_ratio": null,
+  "reserve_replacement_entities": 0,
+  "hhi": null,
+  "hhi_top_country": null,
+  "hhi_max_share": null,
+  "hhi_flag": "unknown",
+  "hhi_basis": null,
+  "market_cap_per_reserve_unit": null,
+  "site_coords": [],
+  "performance_years": [
+   2024
+  ]
+ },
+ "licenses": [
+  {
+   "wiup_code": "3364073032014090",
+   "license_number": "503/7380/IUP-OP/DPMPTSP/XII/2019",
+   "license_type": "IUP",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Coal",
+   "province": "Kalimantan Timur",
+   "city": "Kabupaten Kutai Barat",
+   "company_name": "PT Christian Eka Pratama",
+   "company_slug": "pt-christian-eka-pratama",
+   "effective_date": "2019-12-03",
+   "expiry_date": "2038-07-22",
+   "months_to_expiry": 142.8,
+   "area_ha": 4776.0,
+   "cnc": "CNC-1",
+   "attributable_share": 1.0,
+   "resolution_method": "ownership_tree",
+   "resolution_confidence": 0.95
+  }
+ ],
+ "performance": [
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": null,
+   "sales_volume": null,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": 72.93,
+   "reserve_unit": "Mt",
+   "resources": 134.53,
+   "resource_unit": "Mt",
+   "measurement_year": 2024,
+   "company_slug": "pt-christian-eka-pratama"
+  }
+ ],
+ "sites": []
+}

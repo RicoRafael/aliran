@@ -1,0 +1,140 @@
+{
+ "as_of": "2026-08-28",
+ "metrics": {
+  "symbol": "MBAP.JK",
+  "company_name": "PT Mitrabara Adiperdana Tbk",
+  "sub_sector": "Oil, Gas & Coal",
+  "market_cap": 1804089769440,
+  "market_cap_rank": 395,
+  "entity_count": 3,
+  "entities": [
+   "pt-baradinamika-mudasukses",
+   "pt-mitrabara-adiperdana-tbk",
+   "pt-mitramuda-makmur"
+  ],
+  "license_count": 2,
+  "lci_12m": 0.3723218614195124,
+  "lci_24m": 0.3723218614195124,
+  "lci_36m": 0.3723218614195124,
+  "expired_share": 0.0,
+  "licensed_ha_weighted": 2766.147,
+  "lci_flag": "red",
+  "lci_counts": {
+   "0_12m": 1,
+   "12_24m": 0,
+   "24_36m": 0,
+   "expired": 0,
+   "no_date": 0,
+   "total": 2
+  },
+  "rli_years": null,
+  "rli_flag": "unknown",
+  "dominant_commodity": "Coal",
+  "commodity_source": "licence_area",
+  "reserves": null,
+  "reserve_unit": null,
+  "production": null,
+  "unit_mismatch": false,
+  "rli_entities_contributing": 0,
+  "strip_ratio_latest": null,
+  "strip_ratio_points": [],
+  "strip_ratio_slope": null,
+  "strip_flag": "unknown",
+  "reserve_replacement_ratio": null,
+  "reserve_replacement_entities": 0,
+  "hhi": null,
+  "hhi_top_country": null,
+  "hhi_max_share": null,
+  "hhi_flag": "unknown",
+  "hhi_basis": null,
+  "market_cap_per_reserve_unit": null,
+  "site_coords": [
+   {
+    "slug": "batubara-pelencau",
+    "name": "Batubara Pelencau",
+    "lat": 3.099412,
+    "lon": 116.447415,
+    "commodity": "Coal",
+    "production": null,
+    "unit": "Mt",
+    "reserves": 1.67,
+    "reserve_unit": "Mt"
+   }
+  ],
+  "performance_years": [
+   2024
+  ]
+ },
+ "licenses": [
+  {
+   "wiup_code": "3364063032014004",
+   "license_number": "188.44/K.419/2017",
+   "license_type": "IUP",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Coal",
+   "province": "Kalimantan Utara",
+   "city": "Malinau",
+   "company_name": "PT Baradinamika Mudasukses",
+   "company_slug": "pt-baradinamika-mudasukses",
+   "effective_date": "2017-07-24",
+   "expiry_date": "2027-07-24",
+   "months_to_expiry": 10.8,
+   "area_ha": 1030.0,
+   "cnc": "CNC-1",
+   "attributable_share": 0.9998999999999999,
+   "resolution_method": "ownership_tree",
+   "resolution_confidence": 0.95
+  },
+  {
+   "wiup_code": "3364063032014001",
+   "license_number": "1122/1/IUP/PMDN/2022",
+   "license_type": "IUP",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Coal",
+   "province": "Kalimantan Utara",
+   "city": "Kabupaten Malinau",
+   "company_name": "PT Mitrabara Adiperdana Tbk",
+   "company_slug": "pt-mitrabara-adiperdana-tbk",
+   "effective_date": "2022-12-12",
+   "expiry_date": "2033-07-31",
+   "months_to_expiry": 83.1,
+   "area_ha": 1736.25,
+   "cnc": "CNC-1",
+   "attributable_share": 1.0,
+   "resolution_method": "api_symbol",
+   "resolution_confidence": 1.0
+  }
+ ],
+ "performance": [
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": null,
+   "sales_volume": 2.3,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": null,
+   "reserve_unit": null,
+   "resources": null,
+   "resource_unit": null,
+   "measurement_year": null,
+   "company_slug": "pt-mitrabara-adiperdana-tbk"
+  }
+ ],
+ "sites": [
+  {
+   "slug": "batubara-pelencau",
+   "name": "Batubara Pelencau",
+   "lat": 3.099412,
+   "lon": 116.447415,
+   "commodity": "Coal",
+   "production": null,
+   "unit": "Mt",
+   "reserves": 1.67,
+   "reserve_unit": "Mt"
+  }
+ ]
+}

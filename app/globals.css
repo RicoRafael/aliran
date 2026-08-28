@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #0b0d10;
+  color: #e8edf2;
+  -webkit-font-smoothing: antialiased;
+}
+
+.flag-red {
+  color: #e5484d;
+}
+.flag-amber {
+  color: #f5a524;
+}
+.flag-neutral {
+  color: #8b97a5;
+}
+.flag-unknown {
+  color: #5a646f;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.6875rem;
+  border: 1px solid currentColor;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+table.data {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+table.data th {
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8b97a5;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid #242b33;
+  white-space: nowrap;
+}
+table.data td {
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid #1a1f26;
+  font-size: 0.8125rem;
+}
+table.data tbody tr:hover {
+  background: #14181d;
+}
+.num {
+  text-align: right;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}

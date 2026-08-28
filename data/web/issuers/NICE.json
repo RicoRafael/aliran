@@ -1,0 +1,96 @@
+{
+ "as_of": "2026-08-28",
+ "metrics": {
+  "symbol": "NICE.JK",
+  "company_name": "PT Adhi Kartiko Pratama Tbk",
+  "sub_sector": "Basic Materials",
+  "market_cap": 2359823760000,
+  "market_cap_rank": 349,
+  "entity_count": 2,
+  "entities": [
+   "pt-adhi-kartiko-pratama-tbk",
+   "pt-terum-konawe-utara"
+  ],
+  "license_count": 1,
+  "lci_12m": 0.0,
+  "lci_24m": 0.0,
+  "lci_36m": 0.0,
+  "expired_share": 0.0,
+  "licensed_ha_weighted": 1975.0,
+  "lci_flag": "neutral",
+  "lci_counts": {
+   "0_12m": 0,
+   "12_24m": 0,
+   "24_36m": 0,
+   "expired": 0,
+   "no_date": 0,
+   "total": 1
+  },
+  "rli_years": 25.13661202185792,
+  "rli_flag": "neutral",
+  "dominant_commodity": "Nickel",
+  "commodity_source": "production",
+  "reserves": 46.0,
+  "reserve_unit": "wmt",
+  "production": 1.83,
+  "unit_mismatch": false,
+  "rli_entities_contributing": 1,
+  "strip_ratio_latest": null,
+  "strip_ratio_points": [],
+  "strip_ratio_slope": null,
+  "strip_flag": "unknown",
+  "reserve_replacement_ratio": null,
+  "reserve_replacement_entities": 0,
+  "hhi": null,
+  "hhi_top_country": null,
+  "hhi_max_share": null,
+  "hhi_flag": "unknown",
+  "hhi_basis": null,
+  "market_cap_per_reserve_unit": 51300516521.73913,
+  "site_coords": [],
+  "performance_years": [
+   2024
+  ]
+ },
+ "licenses": [
+  {
+   "wiup_code": "3474092122014039",
+   "license_number": "704 TAHUN 2010",
+   "license_type": "IUP",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Nickel",
+   "province": "Sulawesi Tenggara",
+   "city": "Kabupaten Konawe Utara",
+   "company_name": "PT Adhi Kartiko Pratama Tbk",
+   "company_slug": "pt-adhi-kartiko-pratama-tbk",
+   "effective_date": "2010-12-14",
+   "expiry_date": "2030-12-13",
+   "months_to_expiry": 51.5,
+   "area_ha": 1975.0,
+   "cnc": "CNC-1",
+   "attributable_share": 1.0,
+   "resolution_method": "api_symbol",
+   "resolution_confidence": 1.0
+  }
+ ],
+ "performance": [
+  {
+   "year": 2024,
+   "commodity_type": "Nickel",
+   "commodity_sub_type": "Limonite & Saprolite Ore",
+   "unit": "wmt",
+   "operation_status": "production",
+   "production_volume": 1.83,
+   "sales_volume": 1.74,
+   "strip_ratio": null,
+   "overburden_removal_volume": null,
+   "reserves": 46.0,
+   "reserve_unit": "wmt",
+   "resources": null,
+   "resource_unit": null,
+   "measurement_year": 2024,
+   "company_slug": "pt-adhi-kartiko-pratama-tbk"
+  }
+ ],
+ "sites": []
+}

@@ -344,3 +344,480 @@
 {"ts": "2026-08-28T08:52:48+00:00", "path": "/v2/mining/companies/ownership/pt-kuansing-inti-makmur/", "params": {}, "status": 200, "billed": 1, "cumulative": 122}
 {"ts": "2026-08-28T08:52:50+00:00", "path": "/v2/mining/companies/ownership/pt-berkat-satria-abadi/", "params": {}, "status": 200, "billed": 1, "cumulative": 123}
 {"ts": "2026-08-28T08:52:52+00:00", "path": "/v2/mining/companies/ownership/pt-puncak-emas-tani-sejahtera/", "params": {}, "status": 200, "billed": 1, "cumulative": 124}
+{"ts": "2026-08-28T08:58:41+00:00", "path": "/v2/mining/companies/performance/pt-citra-palu-mineral/", "params": {}, "status": 200, "billed": 1, "cumulative": 1}
+{"ts": "2026-08-28T08:58:43+00:00", "path": "/v2/mining/companies/performance/pt-kaltim-prima-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 2}
+{"ts": "2026-08-28T08:58:46+00:00", "path": "/v2/mining/companies/performance/pt-aneka-tambang-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 3}
+{"ts": "2026-08-28T08:58:48+00:00", "path": "/v2/mining/companies/performance/pt-lahai-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 4}
+{"ts": "2026-08-28T08:58:50+00:00", "path": "/v2/mining/companies/performance/pt-j-resources-bolaang-mongondow/", "params": {}, "status": 200, "billed": 1, "cumulative": 5}
+{"ts": "2026-08-28T08:58:51+00:00", "path": "/v2/mining/companies/performance/pt-ratah-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 6}
+{"ts": "2026-08-28T08:58:53+00:00", "path": "/v2/mining/companies/performance/pt-linge-mineral-resources/", "params": {}, "status": 200, "billed": 1, "cumulative": 7}
+{"ts": "2026-08-28T08:58:54+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {}, "status": 200, "billed": 1, "cumulative": 8}
+{"ts": "2026-08-28T08:58:56+00:00", "path": "/v2/mining/companies/performance/pt-kideco-jaya-agung/", "params": {}, "status": 200, "billed": 1, "cumulative": 9}
+{"ts": "2026-08-28T08:58:58+00:00", "path": "/v2/mining/companies/performance/pt-tambang-tondano-nusajaya/", "params": {}, "status": 200, "billed": 1, "cumulative": 10}
+{"ts": "2026-08-28T08:59:00+00:00", "path": "/v2/mining/companies/performance/pt-nusa-halmahera-minerals/", "params": {}, "status": 200, "billed": 1, "cumulative": 11}
+{"ts": "2026-08-28T08:59:02+00:00", "path": "/v2/mining/companies/performance/pt-amman-mineral-nusa-tenggara/", "params": {}, "status": 200, "billed": 1, "cumulative": 12}
+{"ts": "2026-08-28T08:59:03+00:00", "path": "/v2/mining/companies/performance/pt-gorontalo-minerals/", "params": {}, "status": 200, "billed": 1, "cumulative": 13}
+{"ts": "2026-08-28T08:59:05+00:00", "path": "/v2/mining/companies/performance/pt-sumber-barito-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 14}
+{"ts": "2026-08-28T08:59:07+00:00", "path": "/v2/mining/companies/performance/pt-maruwai-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 15}
+{"ts": "2026-08-28T08:59:09+00:00", "path": "/v2/mining/companies/performance/pt-juloi-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 16}
+{"ts": "2026-08-28T08:59:11+00:00", "path": "/v2/mining/companies/performance/pt-kalteng-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 17}
+{"ts": "2026-08-28T08:59:13+00:00", "path": "/v2/mining/companies/performance/pt-pari-coal/", "params": {}, "status": 200, "billed": 1, "cumulative": 18}
+{"ts": "2026-08-28T08:59:15+00:00", "path": "/v2/mining/companies/performance/pt-multi-tambangjaya-utama/", "params": {}, "status": 200, "billed": 1, "cumulative": 19}
+{"ts": "2026-08-28T08:59:17+00:00", "path": "/v2/mining/companies/performance/pt-insani-bara-perkasa/", "params": {}, "status": 200, "billed": 1, "cumulative": 20}
+{"ts": "2026-08-28T08:59:18+00:00", "path": "/v2/mining/companies/performance/pt-indominco-mandiri/", "params": {}, "status": 200, "billed": 1, "cumulative": 21}
+{"ts": "2026-08-28T08:59:20+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {}, "status": 200, "billed": 1, "cumulative": 22}
+{"ts": "2026-08-28T08:59:22+00:00", "path": "/v2/mining/companies/performance/pt-barasentosa-lestari/", "params": {}, "status": 200, "billed": 1, "cumulative": 23}
+{"ts": "2026-08-28T08:59:24+00:00", "path": "/v2/mining/companies/performance/pt-trubaindo-coal-mining/", "params": {}, "status": 200, "billed": 1, "cumulative": 24}
+{"ts": "2026-08-28T08:59:26+00:00", "path": "/v2/mining/companies/performance/pt-antang-gunung-meratus/", "params": {}, "status": 200, "billed": 1, "cumulative": 25}
+{"ts": "2026-08-28T08:59:28+00:00", "path": "/v2/mining/companies/performance/pt-sulawesi-cahaya-mineral/", "params": {}, "status": 200, "billed": 1, "cumulative": 26}
+{"ts": "2026-08-28T08:59:29+00:00", "path": "/v2/mining/companies/performance/pt-nusa-karya-arindo/", "params": {}, "status": 429, "billed": 0, "cumulative": 26}
+{"ts": "2026-08-28T08:59:31+00:00", "path": "/v2/mining/companies/performance/pt-nusa-karya-arindo/", "params": {}, "status": 429, "billed": 0, "cumulative": 26}
+{"ts": "2026-08-28T08:59:34+00:00", "path": "/v2/mining/companies/performance/pt-nusa-karya-arindo/", "params": {}, "status": 429, "billed": 0, "cumulative": 26}
+{"ts": "2026-08-28T08:59:41+00:00", "path": "/v2/mining/companies/performance/pt-nusa-karya-arindo/", "params": {}, "status": 429, "billed": 0, "cumulative": 26}
+{"ts": "2026-08-28T08:59:54+00:00", "path": "/v2/mining/companies/performance/pt-nusa-karya-arindo/", "params": {}, "status": 200, "billed": 1, "cumulative": 27}
+{"ts": "2026-08-28T08:59:56+00:00", "path": "/v2/mining/companies/performance/pt-mahakam-sumber-jaya/", "params": {}, "status": 200, "billed": 1, "cumulative": 28}
+{"ts": "2026-08-28T08:59:57+00:00", "path": "/v2/mining/companies/performance/pt-gunungbayan-pratamacoal/", "params": {}, "status": 200, "billed": 1, "cumulative": 29}
+{"ts": "2026-08-28T08:59:59+00:00", "path": "/v2/mining/companies/performance/pt-sumbawa-timur-mining/", "params": {}, "status": 200, "billed": 1, "cumulative": 30}
+{"ts": "2026-08-28T09:00:01+00:00", "path": "/v2/mining/companies/performance/pt-perkasa-inakakerta/", "params": {}, "status": 200, "billed": 1, "cumulative": 31}
+{"ts": "2026-08-28T09:00:03+00:00", "path": "/v2/mining/companies/performance/pt-intam/", "params": {}, "status": 200, "billed": 1, "cumulative": 32}
+{"ts": "2026-08-28T09:00:05+00:00", "path": "/v2/mining/companies/performance/pt-pendopo-energi-batubara/", "params": {}, "status": 200, "billed": 1, "cumulative": 33}
+{"ts": "2026-08-28T09:00:06+00:00", "path": "/v2/mining/companies/performance/pt-bharinto-ekatama/", "params": {}, "status": 200, "billed": 1, "cumulative": 34}
+{"ts": "2026-08-28T09:00:08+00:00", "path": "/v2/mining/companies/performance/pt-bara-international/", "params": {}, "status": 200, "billed": 1, "cumulative": 35}
+{"ts": "2026-08-28T09:00:10+00:00", "path": "/v2/mining/companies/performance/pt-daya-bumindo-karunia/", "params": {}, "status": 200, "billed": 1, "cumulative": 36}
+{"ts": "2026-08-28T09:00:12+00:00", "path": "/v2/mining/companies/performance/pt-sumberdaya-arindo/", "params": {}, "status": 200, "billed": 1, "cumulative": 37}
+{"ts": "2026-08-28T09:00:13+00:00", "path": "/v2/mining/companies/performance/pt-masmindo-dwi-area/", "params": {}, "status": 404, "billed": 1, "cumulative": 38}
+{"ts": "2026-08-28T09:00:14+00:00", "path": "/v2/mining/companies/performance/pt-santan-batubara/", "params": {}, "status": 200, "billed": 1, "cumulative": 39}
+{"ts": "2026-08-28T09:00:16+00:00", "path": "/v2/mining/companies/performance/pt-gag-nikel/", "params": {}, "status": 200, "billed": 1, "cumulative": 40}
+{"ts": "2026-08-28T09:00:18+00:00", "path": "/v2/mining/companies/performance/pt-firman-ketaun-perkasa/", "params": {}, "status": 200, "billed": 1, "cumulative": 41}
+{"ts": "2026-08-28T09:00:20+00:00", "path": "/v2/mining/companies/performance/pt-trisula-kencana-sakti/", "params": {}, "status": 200, "billed": 1, "cumulative": 42}
+{"ts": "2026-08-28T09:00:22+00:00", "path": "/v2/mining/companies/performance/pt-bukit-enim-energy/", "params": {}, "status": 404, "billed": 1, "cumulative": 43}
+{"ts": "2026-08-28T09:00:22+00:00", "path": "/v2/mining/companies/performance/pt-banyan-koalindo-lestari/", "params": {}, "status": 200, "billed": 1, "cumulative": 44}
+{"ts": "2026-08-28T09:00:25+00:00", "path": "/v2/mining/companies/performance/pt-tri-oetama-persada/", "params": {}, "status": 404, "billed": 1, "cumulative": 45}
+{"ts": "2026-08-28T09:00:25+00:00", "path": "/v2/mining/companies/performance/pt-tamtama-perkasa/", "params": {}, "status": 200, "billed": 1, "cumulative": 46}
+{"ts": "2026-08-28T09:00:27+00:00", "path": "/v2/mining/companies/performance/pt-mandiri-intiperkasa/", "params": {}, "status": 200, "billed": 1, "cumulative": 47}
+{"ts": "2026-08-28T09:00:29+00:00", "path": "/v2/mining/companies/performance/pt-meares-soputan-mining/", "params": {}, "status": 200, "billed": 1, "cumulative": 48}
+{"ts": "2026-08-28T09:00:31+00:00", "path": "/v2/mining/companies/performance/pt-wahana-baratama-mining/", "params": {}, "status": 200, "billed": 1, "cumulative": 49}
+{"ts": "2026-08-28T09:00:32+00:00", "path": "/v2/mining/companies/performance/pt-suma-heksa-sinergi/", "params": {}, "status": 200, "billed": 1, "cumulative": 50}
+{"ts": "2026-08-28T09:00:34+00:00", "path": "/v2/mining/companies/performance/pt-damai-suksesindo/", "params": {}, "status": 404, "billed": 1, "cumulative": 51}
+{"ts": "2026-08-28T09:00:35+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 51}
+{"ts": "2026-08-28T09:00:37+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 51}
+{"ts": "2026-08-28T09:00:40+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 51}
+{"ts": "2026-08-28T09:00:47+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {}, "status": 200, "billed": 1, "cumulative": 52}
+{"ts": "2026-08-28T09:00:49+00:00", "path": "/v2/mining/companies/performance/pt-tanur-jaya/", "params": {}, "status": 200, "billed": 1, "cumulative": 53}
+{"ts": "2026-08-28T09:00:51+00:00", "path": "/v2/mining/companies/performance/pt-bumi-suksesindo/", "params": {}, "status": 200, "billed": 1, "cumulative": 54}
+{"ts": "2026-08-28T09:00:52+00:00", "path": "/v2/mining/companies/performance/pt-tiwa-abadi/", "params": {}, "status": 200, "billed": 1, "cumulative": 55}
+{"ts": "2026-08-28T09:00:54+00:00", "path": "/v2/mining/companies/performance/pt-jorong-barutama-greston/", "params": {}, "status": 200, "billed": 1, "cumulative": 56}
+{"ts": "2026-08-28T09:00:56+00:00", "path": "/v2/mining/companies/performance/pt-diva-kencana-borneo/", "params": {}, "status": 200, "billed": 1, "cumulative": 57}
+{"ts": "2026-08-28T09:00:58+00:00", "path": "/v2/mining/companies/performance/pt-loa-haur/", "params": {}, "status": 200, "billed": 1, "cumulative": 58}
+{"ts": "2026-08-28T09:01:00+00:00", "path": "/v2/mining/companies/performance/pt-mulia-pacific-resources/", "params": {}, "status": 404, "billed": 1, "cumulative": 59}
+{"ts": "2026-08-28T09:01:01+00:00", "path": "/v2/mining/companies/performance/pt-christian-eka-pratama/", "params": {}, "status": 200, "billed": 1, "cumulative": 60}
+{"ts": "2026-08-28T09:01:02+00:00", "path": "/v2/mining/companies/performance/pt-nusa-persada-resources/", "params": {}, "status": 200, "billed": 1, "cumulative": 61}
+{"ts": "2026-08-28T09:01:04+00:00", "path": "/v2/mining/companies/performance/pt-trimegah-bangun-persada-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 62}
+{"ts": "2026-08-28T09:01:06+00:00", "path": "/v2/mining/companies/performance/pt-bumi-karunia-pertiwi/", "params": {}, "status": 404, "billed": 1, "cumulative": 63}
+{"ts": "2026-08-28T09:01:07+00:00", "path": "/v2/mining/companies/performance/pt-brian-anjat-sentosa/", "params": {}, "status": 200, "billed": 1, "cumulative": 64}
+{"ts": "2026-08-28T09:01:08+00:00", "path": "/v2/mining/companies/performance/pt-arafura-surya-alam/", "params": {}, "status": 200, "billed": 1, "cumulative": 65}
+{"ts": "2026-08-28T09:01:10+00:00", "path": "/v2/mining/companies/performance/pt-borneo-bangun-banua/", "params": {}, "status": 200, "billed": 1, "cumulative": 66}
+{"ts": "2026-08-28T09:01:12+00:00", "path": "/v2/mining/companies/performance/pt-fajar-sakti-prima/", "params": {}, "status": 200, "billed": 1, "cumulative": 67}
+{"ts": "2026-08-28T09:01:14+00:00", "path": "/v2/mining/companies/performance/pt-sago-prima-pratama/", "params": {}, "status": 200, "billed": 1, "cumulative": 68}
+{"ts": "2026-08-28T09:01:16+00:00", "path": "/v2/mining/companies/performance/pt-teguh-sinarabadi/", "params": {}, "status": 200, "billed": 1, "cumulative": 69}
+{"ts": "2026-08-28T09:01:18+00:00", "path": "/v2/mining/companies/performance/pt-internasional-prima-coal/", "params": {}, "status": 404, "billed": 1, "cumulative": 70}
+{"ts": "2026-08-28T09:01:19+00:00", "path": "/v2/mining/companies/performance/pt-cahaya-alam/", "params": {}, "status": 200, "billed": 1, "cumulative": 71}
+{"ts": "2026-08-28T09:01:20+00:00", "path": "/v2/mining/companies/performance/pt-dermaga-energi/", "params": {}, "status": 200, "billed": 1, "cumulative": 72}
+{"ts": "2026-08-28T09:01:22+00:00", "path": "/v2/mining/companies/performance/pt-bara-tabang/", "params": {}, "status": 200, "billed": 1, "cumulative": 73}
+{"ts": "2026-08-28T09:01:24+00:00", "path": "/v2/mining/companies/performance/pt-adimitra-baratama-nusantara/", "params": {}, "status": 404, "billed": 1, "cumulative": 74}
+{"ts": "2026-08-28T09:01:25+00:00", "path": "/v2/mining/companies/performance/pt-bara-sejati/", "params": {}, "status": 200, "billed": 1, "cumulative": 75}
+{"ts": "2026-08-28T09:01:27+00:00", "path": "/v2/mining/companies/performance/pt-karya-usaha-pertiwi/", "params": {}, "status": 200, "billed": 1, "cumulative": 76}
+{"ts": "2026-08-28T09:01:28+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {}, "status": 429, "billed": 0, "cumulative": 76}
+{"ts": "2026-08-28T09:01:30+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {}, "status": 429, "billed": 0, "cumulative": 76}
+{"ts": "2026-08-28T09:01:33+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {}, "status": 429, "billed": 0, "cumulative": 76}
+{"ts": "2026-08-28T09:01:40+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {}, "status": 429, "billed": 0, "cumulative": 76}
+{"ts": "2026-08-28T09:01:53+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {}, "status": 200, "billed": 1, "cumulative": 77}
+{"ts": "2026-08-28T09:01:55+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {}, "status": 200, "billed": 1, "cumulative": 78}
+{"ts": "2026-08-28T09:01:57+00:00", "path": "/v2/mining/companies/performance/pt-semesta-centramas/", "params": {}, "status": 200, "billed": 1, "cumulative": 79}
+{"ts": "2026-08-28T09:01:59+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 80}
+{"ts": "2026-08-28T09:02:00+00:00", "path": "/v2/mining/companies/performance/pt-gane-tambang-sentosa/", "params": {}, "status": 404, "billed": 1, "cumulative": 81}
+{"ts": "2026-08-28T09:02:01+00:00", "path": "/v2/mining/companies/performance/pt-triaryani/", "params": {}, "status": 404, "billed": 1, "cumulative": 82}
+{"ts": "2026-08-28T09:02:01+00:00", "path": "/v2/mining/companies/performance/pt-tepian-indah-sukses/", "params": {}, "status": 200, "billed": 1, "cumulative": 83}
+{"ts": "2026-08-28T09:02:03+00:00", "path": "/v2/mining/companies/performance/pt-mustika-indah-permai/", "params": {}, "status": 200, "billed": 1, "cumulative": 84}
+{"ts": "2026-08-28T09:02:05+00:00", "path": "/v2/mining/companies/performance/pt-adhi-kartiko-pratama-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 85}
+{"ts": "2026-08-28T09:02:06+00:00", "path": "/v2/mining/companies/performance/pt-sumber-api/", "params": {}, "status": 200, "billed": 1, "cumulative": 86}
+{"ts": "2026-08-28T09:02:08+00:00", "path": "/v2/mining/companies/performance/pt-arkara-prathama-energi/", "params": {}, "status": 404, "billed": 1, "cumulative": 87}
+{"ts": "2026-08-28T09:02:09+00:00", "path": "/v2/mining/companies/performance/pt-mitrabara-adiperdana-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 88}
+{"ts": "2026-08-28T09:02:10+00:00", "path": "/v2/mining/companies/performance/pt-gane-permai-sentosa/", "params": {}, "status": 404, "billed": 1, "cumulative": 89}
+{"ts": "2026-08-28T09:02:11+00:00", "path": "/v2/mining/companies/performance/pt-baradinamika-mudasukses/", "params": {}, "status": 404, "billed": 1, "cumulative": 90}
+{"ts": "2026-08-28T09:02:12+00:00", "path": "/v2/mining/companies/performance/pt-itamatra-nusantara/", "params": {}, "status": 404, "billed": 1, "cumulative": 91}
+{"ts": "2026-08-28T09:02:13+00:00", "path": "/v2/mining/companies/performance/pt-alhasanie/", "params": {}, "status": 200, "billed": 1, "cumulative": 92}
+{"ts": "2026-08-28T09:02:15+00:00", "path": "/v2/mining/companies/performance/pt-ifishdeco-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 93}
+{"ts": "2026-08-28T09:02:16+00:00", "path": "/v2/mining/companies/performance/pt-garda-tujuh-buana-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 94}
+{"ts": "2026-08-28T09:02:17+00:00", "path": "/v2/mining/companies/performance/pt-indrabakti-mustika/", "params": {}, "status": 200, "billed": 1, "cumulative": 95}
+{"ts": "2026-08-28T09:02:19+00:00", "path": "/v2/mining/companies/performance/pt-patrindo-jaya-makmur/", "params": {}, "status": 404, "billed": 1, "cumulative": 96}
+{"ts": "2026-08-28T09:02:19+00:00", "path": "/v2/mining/companies/performance/pt-bumi-konawe-abadi/", "params": {}, "status": 404, "billed": 1, "cumulative": 97}
+{"ts": "2026-08-28T09:02:20+00:00", "path": "/v2/mining/companies/performance/pt-orkida-makmur/", "params": {}, "status": 200, "billed": 1, "cumulative": 98}
+{"ts": "2026-08-28T09:02:21+00:00", "path": "/v2/mining/companies/performance/pt-kuansing-inti-makmur/", "params": {}, "status": 200, "billed": 1, "cumulative": 99}
+{"ts": "2026-08-28T09:02:23+00:00", "path": "/v2/mining/companies/performance/pt-pam-mineral-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 100}
+{"ts": "2026-08-28T09:02:24+00:00", "path": "/v2/mining/companies/performance/pt-abm-investama-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 101}
+{"ts": "2026-08-28T09:02:25+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 429, "billed": 0, "cumulative": 101}
+{"ts": "2026-08-28T09:02:27+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 429, "billed": 0, "cumulative": 101}
+{"ts": "2026-08-28T09:02:30+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 429, "billed": 0, "cumulative": 101}
+{"ts": "2026-08-28T09:02:36+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 429, "billed": 0, "cumulative": 101}
+{"ts": "2026-08-28T09:02:49+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 102}
+{"ts": "2026-08-28T09:02:51+00:00", "path": "/v2/mining/companies/performance/pt-adaro-minerals-indonesia-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 103}
+{"ts": "2026-08-28T09:02:53+00:00", "path": "/v2/mining/companies/performance/pt-alamtri-resources-indonesia-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 104}
+{"ts": "2026-08-28T09:02:55+00:00", "path": "/v2/mining/companies/performance/pt-alfa-energi-investama-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 105}
+{"ts": "2026-08-28T09:02:56+00:00", "path": "/v2/mining/companies/performance/pt-amman-mineral-internasional-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 106}
+{"ts": "2026-08-28T09:02:57+00:00", "path": "/v2/mining/companies/performance/pt-ancara-logistics-indonesia-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 107}
+{"ts": "2026-08-28T09:02:58+00:00", "path": "/v2/mining/companies/performance/pt-citra-palu-mineral/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 108}
+{"ts": "2026-08-28T09:02:59+00:00", "path": "/v2/mining/companies/performance/pt-citra-palu-mineral/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 109}
+{"ts": "2026-08-28T09:03:01+00:00", "path": "/v2/mining/companies/performance/pt-citra-palu-mineral/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 110}
+{"ts": "2026-08-28T09:03:03+00:00", "path": "/v2/mining/companies/performance/pt-kaltim-prima-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 111}
+{"ts": "2026-08-28T09:03:05+00:00", "path": "/v2/mining/companies/performance/pt-kaltim-prima-coal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 112}
+{"ts": "2026-08-28T09:03:07+00:00", "path": "/v2/mining/companies/performance/pt-kaltim-prima-coal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 113}
+{"ts": "2026-08-28T09:03:08+00:00", "path": "/v2/mining/companies/performance/pt-bukit-asam-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 114}
+{"ts": "2026-08-28T09:03:10+00:00", "path": "/v2/mining/companies/performance/pt-aneka-tambang-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 115}
+{"ts": "2026-08-28T09:03:12+00:00", "path": "/v2/mining/companies/performance/pt-aneka-tambang-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 116}
+{"ts": "2026-08-28T09:03:14+00:00", "path": "/v2/mining/companies/performance/pt-aneka-tambang-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 117}
+{"ts": "2026-08-28T09:03:16+00:00", "path": "/v2/mining/companies/performance/pt-lahai-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 118}
+{"ts": "2026-08-28T09:03:18+00:00", "path": "/v2/mining/companies/performance/pt-lahai-coal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 119}
+{"ts": "2026-08-28T09:03:20+00:00", "path": "/v2/mining/companies/performance/pt-lahai-coal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 120}
+{"ts": "2026-08-28T09:03:21+00:00", "path": "/v2/mining/companies/performance/pt-j-resources-bolaang-mongondow/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 121}
+{"ts": "2026-08-28T09:03:23+00:00", "path": "/v2/mining/companies/performance/pt-j-resources-bolaang-mongondow/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 122}
+{"ts": "2026-08-28T09:03:25+00:00", "path": "/v2/mining/companies/performance/pt-j-resources-bolaang-mongondow/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 123}
+{"ts": "2026-08-28T09:03:27+00:00", "path": "/v2/mining/companies/performance/pt-ratah-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 124}
+{"ts": "2026-08-28T09:03:28+00:00", "path": "/v2/mining/companies/performance/pt-ratah-coal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 125}
+{"ts": "2026-08-28T09:03:30+00:00", "path": "/v2/mining/companies/performance/pt-ratah-coal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 126}
+{"ts": "2026-08-28T09:03:32+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 126}
+{"ts": "2026-08-28T09:03:34+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 126}
+{"ts": "2026-08-28T09:03:37+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 126}
+{"ts": "2026-08-28T09:03:44+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 127}
+{"ts": "2026-08-28T09:03:46+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 128}
+{"ts": "2026-08-28T09:03:48+00:00", "path": "/v2/mining/companies/performance/pt-arutmin-indonesia/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 129}
+{"ts": "2026-08-28T09:03:50+00:00", "path": "/v2/mining/companies/performance/pt-kideco-jaya-agung/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 130}
+{"ts": "2026-08-28T09:03:52+00:00", "path": "/v2/mining/companies/performance/pt-kideco-jaya-agung/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 131}
+{"ts": "2026-08-28T09:03:54+00:00", "path": "/v2/mining/companies/performance/pt-kideco-jaya-agung/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 132}
+{"ts": "2026-08-28T09:03:55+00:00", "path": "/v2/mining/companies/performance/pt-gorontalo-minerals/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 133}
+{"ts": "2026-08-28T09:03:57+00:00", "path": "/v2/mining/companies/performance/pt-gorontalo-minerals/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 134}
+{"ts": "2026-08-28T09:03:59+00:00", "path": "/v2/mining/companies/performance/pt-gorontalo-minerals/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 135}
+{"ts": "2026-08-28T09:04:01+00:00", "path": "/v2/mining/companies/performance/pt-maruwai-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 136}
+{"ts": "2026-08-28T09:04:03+00:00", "path": "/v2/mining/companies/performance/pt-maruwai-coal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 137}
+{"ts": "2026-08-28T09:04:05+00:00", "path": "/v2/mining/companies/performance/pt-maruwai-coal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 138}
+{"ts": "2026-08-28T09:04:07+00:00", "path": "/v2/mining/companies/performance/pt-pari-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 139}
+{"ts": "2026-08-28T09:04:08+00:00", "path": "/v2/mining/companies/performance/pt-pari-coal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 140}
+{"ts": "2026-08-28T09:04:10+00:00", "path": "/v2/mining/companies/performance/pt-pari-coal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 141}
+{"ts": "2026-08-28T09:04:12+00:00", "path": "/v2/mining/companies/performance/pt-multi-tambangjaya-utama/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 142}
+{"ts": "2026-08-28T09:04:14+00:00", "path": "/v2/mining/companies/performance/pt-multi-tambangjaya-utama/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 143}
+{"ts": "2026-08-28T09:04:16+00:00", "path": "/v2/mining/companies/performance/pt-multi-tambangjaya-utama/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 144}
+{"ts": "2026-08-28T09:04:17+00:00", "path": "/v2/mining/companies/performance/pt-insani-bara-perkasa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 145}
+{"ts": "2026-08-28T09:04:19+00:00", "path": "/v2/mining/companies/performance/pt-insani-bara-perkasa/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 146}
+{"ts": "2026-08-28T09:04:21+00:00", "path": "/v2/mining/companies/performance/pt-insani-bara-perkasa/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 147}
+{"ts": "2026-08-28T09:04:23+00:00", "path": "/v2/mining/companies/performance/pt-indominco-mandiri/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 148}
+{"ts": "2026-08-28T09:04:24+00:00", "path": "/v2/mining/companies/performance/pt-indominco-mandiri/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 149}
+{"ts": "2026-08-28T09:04:27+00:00", "path": "/v2/mining/companies/performance/pt-indominco-mandiri/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 150}
+{"ts": "2026-08-28T09:04:28+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 151}
+{"ts": "2026-08-28T09:04:30+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 151}
+{"ts": "2026-08-28T09:04:32+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 151}
+{"ts": "2026-08-28T09:04:35+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 151}
+{"ts": "2026-08-28T09:04:41+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 151}
+{"ts": "2026-08-28T09:04:54+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 152}
+{"ts": "2026-08-28T09:04:56+00:00", "path": "/v2/mining/companies/performance/pt-borneo-indobara/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 153}
+{"ts": "2026-08-28T09:04:58+00:00", "path": "/v2/mining/companies/performance/pt-adaro-indonesia/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 154}
+{"ts": "2026-08-28T09:05:00+00:00", "path": "/v2/mining/companies/performance/pt-barasentosa-lestari/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 155}
+{"ts": "2026-08-28T09:05:02+00:00", "path": "/v2/mining/companies/performance/pt-barasentosa-lestari/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 156}
+{"ts": "2026-08-28T09:05:03+00:00", "path": "/v2/mining/companies/performance/pt-barasentosa-lestari/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 157}
+{"ts": "2026-08-28T09:05:05+00:00", "path": "/v2/mining/companies/performance/pt-trubaindo-coal-mining/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 158}
+{"ts": "2026-08-28T09:05:07+00:00", "path": "/v2/mining/companies/performance/pt-trubaindo-coal-mining/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 159}
+{"ts": "2026-08-28T09:05:08+00:00", "path": "/v2/mining/companies/performance/pt-trubaindo-coal-mining/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 160}
+{"ts": "2026-08-28T09:05:10+00:00", "path": "/v2/mining/companies/performance/pt-mahakam-sumber-jaya/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 161}
+{"ts": "2026-08-28T09:05:12+00:00", "path": "/v2/mining/companies/performance/pt-mahakam-sumber-jaya/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 162}
+{"ts": "2026-08-28T09:05:14+00:00", "path": "/v2/mining/companies/performance/pt-mahakam-sumber-jaya/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 163}
+{"ts": "2026-08-28T09:05:15+00:00", "path": "/v2/mining/companies/performance/pt-gunungbayan-pratamacoal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 164}
+{"ts": "2026-08-28T09:05:18+00:00", "path": "/v2/mining/companies/performance/pt-gunungbayan-pratamacoal/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 165}
+{"ts": "2026-08-28T09:05:19+00:00", "path": "/v2/mining/companies/performance/pt-gunungbayan-pratamacoal/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 166}
+{"ts": "2026-08-28T09:05:21+00:00", "path": "/v2/mining/companies/performance/pt-perkasa-inakakerta/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 167}
+{"ts": "2026-08-28T09:05:23+00:00", "path": "/v2/mining/companies/performance/pt-perkasa-inakakerta/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 168}
+{"ts": "2026-08-28T09:05:25+00:00", "path": "/v2/mining/companies/performance/pt-perkasa-inakakerta/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 169}
+{"ts": "2026-08-28T09:05:27+00:00", "path": "/v2/mining/companies/performance/pt-pendopo-energi-batubara/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 170}
+{"ts": "2026-08-28T09:05:29+00:00", "path": "/v2/mining/companies/performance/pt-pendopo-energi-batubara/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 171}
+{"ts": "2026-08-28T09:05:31+00:00", "path": "/v2/mining/companies/performance/pt-pendopo-energi-batubara/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 172}
+{"ts": "2026-08-28T09:05:33+00:00", "path": "/v2/mining/companies/performance/pt-bharinto-ekatama/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 173}
+{"ts": "2026-08-28T09:05:35+00:00", "path": "/v2/mining/companies/performance/pt-bharinto-ekatama/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 174}
+{"ts": "2026-08-28T09:05:37+00:00", "path": "/v2/mining/companies/performance/pt-bharinto-ekatama/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 175}
+{"ts": "2026-08-28T09:05:39+00:00", "path": "/v2/mining/companies/performance/pt-santan-batubara/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 176}
+{"ts": "2026-08-28T09:05:41+00:00", "path": "/v2/mining/companies/performance/pt-santan-batubara/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 176}
+{"ts": "2026-08-28T09:05:43+00:00", "path": "/v2/mining/companies/performance/pt-santan-batubara/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 177}
+{"ts": "2026-08-28T09:05:45+00:00", "path": "/v2/mining/companies/performance/pt-santan-batubara/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 178}
+{"ts": "2026-08-28T09:05:46+00:00", "path": "/v2/mining/companies/performance/pt-trisula-kencana-sakti/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 179}
+{"ts": "2026-08-28T09:05:48+00:00", "path": "/v2/mining/companies/performance/pt-trisula-kencana-sakti/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 180}
+{"ts": "2026-08-28T09:05:50+00:00", "path": "/v2/mining/companies/performance/pt-trisula-kencana-sakti/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 181}
+{"ts": "2026-08-28T09:05:52+00:00", "path": "/v2/mining/companies/performance/pt-mandiri-intiperkasa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 182}
+{"ts": "2026-08-28T09:05:54+00:00", "path": "/v2/mining/companies/performance/pt-mandiri-intiperkasa/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 183}
+{"ts": "2026-08-28T09:05:55+00:00", "path": "/v2/mining/companies/performance/pt-mandiri-intiperkasa/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 184}
+{"ts": "2026-08-28T09:05:57+00:00", "path": "/v2/mining/companies/performance/pt-wahana-baratama-mining/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 185}
+{"ts": "2026-08-28T09:05:59+00:00", "path": "/v2/mining/companies/performance/pt-wahana-baratama-mining/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 186}
+{"ts": "2026-08-28T09:06:01+00:00", "path": "/v2/mining/companies/performance/pt-wahana-baratama-mining/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 187}
+{"ts": "2026-08-28T09:06:03+00:00", "path": "/v2/mining/companies/performance/pt-bumi-suksesindo/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 188}
+{"ts": "2026-08-28T09:06:05+00:00", "path": "/v2/mining/companies/performance/pt-bumi-suksesindo/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 189}
+{"ts": "2026-08-28T09:06:06+00:00", "path": "/v2/mining/companies/performance/pt-bumi-suksesindo/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 190}
+{"ts": "2026-08-28T09:06:08+00:00", "path": "/v2/mining/companies/performance/pt-jorong-barutama-greston/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 191}
+{"ts": "2026-08-28T09:06:10+00:00", "path": "/v2/mining/companies/performance/pt-jorong-barutama-greston/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 192}
+{"ts": "2026-08-28T09:06:12+00:00", "path": "/v2/mining/companies/performance/pt-jorong-barutama-greston/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 193}
+{"ts": "2026-08-28T09:06:13+00:00", "path": "/v2/mining/companies/performance/pt-karya-usaha-pertiwi/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 194}
+{"ts": "2026-08-28T09:06:15+00:00", "path": "/v2/mining/companies/performance/pt-karya-usaha-pertiwi/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 195}
+{"ts": "2026-08-28T09:06:17+00:00", "path": "/v2/mining/companies/performance/pt-karya-usaha-pertiwi/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 196}
+{"ts": "2026-08-28T09:06:18+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 197}
+{"ts": "2026-08-28T09:06:20+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 198}
+{"ts": "2026-08-28T09:06:22+00:00", "path": "/v2/mining/companies/performance/pt-laskar-semesta-alam/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 199}
+{"ts": "2026-08-28T09:06:24+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 200}
+{"ts": "2026-08-28T09:06:26+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 201}
+{"ts": "2026-08-28T09:06:27+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2021}, "status": 429, "billed": 0, "cumulative": 201}
+{"ts": "2026-08-28T09:06:29+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2021}, "status": 429, "billed": 0, "cumulative": 201}
+{"ts": "2026-08-28T09:06:32+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2021}, "status": 429, "billed": 0, "cumulative": 201}
+{"ts": "2026-08-28T09:06:39+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2021}, "status": 429, "billed": 0, "cumulative": 201}
+{"ts": "2026-08-28T09:06:52+00:00", "path": "/v2/mining/companies/performance/pt-paramitha-cipta-sarana/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 202}
+{"ts": "2026-08-28T09:06:54+00:00", "path": "/v2/mining/companies/performance/pt-semesta-centramas/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 203}
+{"ts": "2026-08-28T09:06:56+00:00", "path": "/v2/mining/companies/performance/pt-semesta-centramas/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 204}
+{"ts": "2026-08-28T09:06:57+00:00", "path": "/v2/mining/companies/performance/pt-semesta-centramas/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 205}
+{"ts": "2026-08-28T09:06:59+00:00", "path": "/v2/mining/companies/performance/pt-mustika-indah-permai/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 206}
+{"ts": "2026-08-28T09:07:01+00:00", "path": "/v2/mining/companies/performance/pt-mustika-indah-permai/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 207}
+{"ts": "2026-08-28T09:07:03+00:00", "path": "/v2/mining/companies/performance/pt-mustika-indah-permai/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 208}
+{"ts": "2026-08-28T09:07:05+00:00", "path": "/v2/mining/companies/performance/pt-mitrabara-adiperdana-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 209}
+{"ts": "2026-08-28T09:07:07+00:00", "path": "/v2/mining/companies/performance/pt-mitrabara-adiperdana-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 210}
+{"ts": "2026-08-28T09:07:09+00:00", "path": "/v2/mining/companies/performance/pt-mitrabara-adiperdana-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 211}
+{"ts": "2026-08-28T09:07:10+00:00", "path": "/v2/mining/companies/performance/pt-kuansing-inti-makmur/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 212}
+{"ts": "2026-08-28T09:07:12+00:00", "path": "/v2/mining/companies/performance/pt-kuansing-inti-makmur/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 213}
+{"ts": "2026-08-28T09:07:15+00:00", "path": "/v2/mining/companies/performance/pt-kuansing-inti-makmur/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 214}
+{"ts": "2026-08-28T09:07:17+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 215}
+{"ts": "2026-08-28T09:07:19+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 216}
+{"ts": "2026-08-28T09:07:20+00:00", "path": "/v2/mining/companies/performance/pt-adaro-andalan-indonesia-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 217}
+{"ts": "2026-08-28T09:07:22+00:00", "path": "/v2/mining/companies/performance/pt-adaro-minerals-indonesia-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 218}
+{"ts": "2026-08-28T09:07:24+00:00", "path": "/v2/mining/companies/performance/pt-adaro-minerals-indonesia-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 219}
+{"ts": "2026-08-28T09:07:26+00:00", "path": "/v2/mining/companies/performance/pt-adaro-minerals-indonesia-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 220}
+{"ts": "2026-08-28T09:07:28+00:00", "path": "/v2/mining/companies/performance/pt-alamtri-resources-indonesia-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 221}
+{"ts": "2026-08-28T09:07:30+00:00", "path": "/v2/mining/companies/performance/pt-alamtri-resources-indonesia-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 222}
+{"ts": "2026-08-28T09:07:31+00:00", "path": "/v2/mining/companies/performance/pt-alamtri-resources-indonesia-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 223}
+{"ts": "2026-08-28T09:07:33+00:00", "path": "/v2/mining/companies/performance/pt-antang-gunung-meratus/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 224}
+{"ts": "2026-08-28T09:07:36+00:00", "path": "/v2/mining/companies/performance/pt-antang-gunung-meratus/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 225}
+{"ts": "2026-08-28T09:07:37+00:00", "path": "/v2/mining/companies/performance/pt-antang-gunung-meratus/", "params": {"year": 2020}, "status": 200, "billed": 1, "cumulative": 226}
+{"ts": "2026-08-28T09:07:39+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 226}
+{"ts": "2026-08-28T09:07:41+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {"year": 2022}, "status": 429, "billed": 0, "cumulative": 226}
+{"ts": "2026-08-28T09:07:45+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 227}
+{"ts": "2026-08-28T09:07:47+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 228}
+{"ts": "2026-08-28T09:07:49+00:00", "path": "/v2/mining/companies/performance/pt-baramulti-suksessarana-tbk/", "params": {"year": 2020}, "status": 200, "billed": 1, "cumulative": 229}
+{"ts": "2026-08-28T09:07:51+00:00", "path": "/v2/mining/companies/performance/pt-firman-ketaun-perkasa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 230}
+{"ts": "2026-08-28T09:07:53+00:00", "path": "/v2/mining/companies/performance/pt-firman-ketaun-perkasa/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 231}
+{"ts": "2026-08-28T09:07:54+00:00", "path": "/v2/mining/companies/performance/pt-firman-ketaun-perkasa/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 232}
+{"ts": "2026-08-28T09:07:56+00:00", "path": "/v2/mining/companies/performance/pt-teguh-sinarabadi/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 233}
+{"ts": "2026-08-28T09:07:58+00:00", "path": "/v2/mining/companies/performance/pt-teguh-sinarabadi/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 234}
+{"ts": "2026-08-28T09:08:00+00:00", "path": "/v2/mining/companies/performance/pt-teguh-sinarabadi/", "params": {"year": 2021}, "status": 200, "billed": 1, "cumulative": 235}
+{"ts": "2026-08-28T09:08:01+00:00", "path": "/v2/mining/companies/performance/pt-tamtama-perkasa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 236}
+{"ts": "2026-08-28T09:08:03+00:00", "path": "/v2/mining/companies/performance/pt-tamtama-perkasa/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 237}
+{"ts": "2026-08-28T09:08:05+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 238}
+{"ts": "2026-08-28T09:08:06+00:00", "path": "/v2/mining/companies/performance/pt-graha-panca-karsa/", "params": {"year": 2022}, "status": 200, "billed": 1, "cumulative": 239}
+{"ts": "2026-08-28T09:08:08+00:00", "path": "/v2/mining/companies/performance/pt-amman-mineral-nusa-tenggara/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 240}
+{"ts": "2026-08-28T09:08:10+00:00", "path": "/v2/mining/companies/performance/pt-sumber-barito-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 241}
+{"ts": "2026-08-28T09:08:13+00:00", "path": "/v2/mining/companies/performance/pt-juloi-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 242}
+{"ts": "2026-08-28T09:08:15+00:00", "path": "/v2/mining/companies/performance/pt-kalteng-coal/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 243}
+{"ts": "2026-08-28T09:08:16+00:00", "path": "/v2/mining/companies/performance/pt-intam/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 244}
+{"ts": "2026-08-28T09:08:18+00:00", "path": "/v2/mining/companies/performance/pt-bara-international/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 245}
+{"ts": "2026-08-28T09:08:20+00:00", "path": "/v2/mining/companies/performance/pt-banyan-koalindo-lestari/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 246}
+{"ts": "2026-08-28T09:08:23+00:00", "path": "/v2/mining/companies/performance/pt-tanur-jaya/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 247}
+{"ts": "2026-08-28T09:08:24+00:00", "path": "/v2/mining/companies/performance/pt-tiwa-abadi/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 248}
+{"ts": "2026-08-28T09:08:26+00:00", "path": "/v2/mining/companies/performance/pt-diva-kencana-borneo/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 249}
+{"ts": "2026-08-28T09:08:28+00:00", "path": "/v2/mining/companies/performance/pt-loa-haur/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 250}
+{"ts": "2026-08-28T09:08:30+00:00", "path": "/v2/mining/companies/performance/pt-nusa-persada-resources/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 251}
+{"ts": "2026-08-28T09:08:32+00:00", "path": "/v2/mining/companies/performance/pt-brian-anjat-sentosa/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 251}
+{"ts": "2026-08-28T09:08:33+00:00", "path": "/v2/mining/companies/performance/pt-brian-anjat-sentosa/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 251}
+{"ts": "2026-08-28T09:08:37+00:00", "path": "/v2/mining/companies/performance/pt-brian-anjat-sentosa/", "params": {"year": 2023}, "status": 429, "billed": 0, "cumulative": 251}
+{"ts": "2026-08-28T09:08:44+00:00", "path": "/v2/mining/companies/performance/pt-brian-anjat-sentosa/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 252}
+{"ts": "2026-08-28T09:08:46+00:00", "path": "/v2/mining/companies/performance/pt-fajar-sakti-prima/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 253}
+{"ts": "2026-08-28T09:08:48+00:00", "path": "/v2/mining/companies/performance/pt-cahaya-alam/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 254}
+{"ts": "2026-08-28T09:08:50+00:00", "path": "/v2/mining/companies/performance/pt-dermaga-energi/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 255}
+{"ts": "2026-08-28T09:08:52+00:00", "path": "/v2/mining/companies/performance/pt-bara-tabang/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 256}
+{"ts": "2026-08-28T09:08:54+00:00", "path": "/v2/mining/companies/performance/pt-bara-sejati/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 257}
+{"ts": "2026-08-28T09:08:55+00:00", "path": "/v2/mining/companies/performance/pt-tepian-indah-sukses/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 258}
+{"ts": "2026-08-28T09:08:57+00:00", "path": "/v2/mining/companies/performance/pt-sumber-api/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 259}
+{"ts": "2026-08-28T09:08:59+00:00", "path": "/v2/mining/companies/performance/pt-alhasanie/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 260}
+{"ts": "2026-08-28T09:09:01+00:00", "path": "/v2/mining/companies/performance/pt-orkida-makmur/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 261}
+{"ts": "2026-08-28T09:09:03+00:00", "path": "/v2/mining/companies/performance/pt-amman-mineral-internasional-tbk/", "params": {"year": 2023}, "status": 200, "billed": 1, "cumulative": 262}
+{"ts": "2026-08-28T09:09:05+00:00", "path": "/v2/mining/sites/", "params": {"limit": 30, "commodity_type": "Coal"}, "status": 200, "billed": 1, "cumulative": 263}
+{"ts": "2026-08-28T09:09:07+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Coal", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 264}
+{"ts": "2026-08-28T09:09:09+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Coal", "limit": 30, "offset": 30}, "status": 200, "billed": 1, "cumulative": 265}
+{"ts": "2026-08-28T09:09:10+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Coal", "limit": 30, "offset": 60}, "status": 200, "billed": 1, "cumulative": 266}
+{"ts": "2026-08-28T09:09:12+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Coal", "limit": 30, "offset": 90}, "status": 200, "billed": 1, "cumulative": 267}
+{"ts": "2026-08-28T09:09:14+00:00", "path": "/v2/mining/sites/", "params": {"limit": 30, "commodity_type": "Nickel"}, "status": 200, "billed": 1, "cumulative": 268}
+{"ts": "2026-08-28T09:09:16+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Nickel", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 269}
+{"ts": "2026-08-28T09:09:17+00:00", "path": "/v2/mining/sites/", "params": {"limit": 30, "commodity_type": "Gold"}, "status": 200, "billed": 1, "cumulative": 270}
+{"ts": "2026-08-28T09:09:20+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Gold", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 271}
+{"ts": "2026-08-28T09:09:21+00:00", "path": "/v2/mining/sites/", "params": {"limit": 30, "commodity_type": "Copper"}, "status": 200, "billed": 1, "cumulative": 272}
+{"ts": "2026-08-28T09:10:04+00:00", "path": "/v2/mining/companies/performance/pt-masmindo-dwi-area/", "params": {}, "status": 404, "billed": 1, "cumulative": 1}
+{"ts": "2026-08-28T09:10:04+00:00", "path": "/v2/mining/companies/performance/pt-bukit-enim-energy/", "params": {}, "status": 404, "billed": 1, "cumulative": 2}
+{"ts": "2026-08-28T09:10:05+00:00", "path": "/v2/mining/companies/performance/pt-tri-oetama-persada/", "params": {}, "status": 404, "billed": 1, "cumulative": 3}
+{"ts": "2026-08-28T09:10:06+00:00", "path": "/v2/mining/companies/performance/pt-damai-suksesindo/", "params": {}, "status": 404, "billed": 1, "cumulative": 4}
+{"ts": "2026-08-28T09:10:06+00:00", "path": "/v2/mining/companies/performance/pt-mulia-pacific-resources/", "params": {}, "status": 404, "billed": 1, "cumulative": 5}
+{"ts": "2026-08-28T09:10:07+00:00", "path": "/v2/mining/companies/performance/pt-bumi-karunia-pertiwi/", "params": {}, "status": 404, "billed": 1, "cumulative": 6}
+{"ts": "2026-08-28T09:10:07+00:00", "path": "/v2/mining/companies/performance/pt-internasional-prima-coal/", "params": {}, "status": 404, "billed": 1, "cumulative": 7}
+{"ts": "2026-08-28T09:10:08+00:00", "path": "/v2/mining/companies/performance/pt-adimitra-baratama-nusantara/", "params": {}, "status": 404, "billed": 1, "cumulative": 8}
+{"ts": "2026-08-28T09:10:09+00:00", "path": "/v2/mining/companies/performance/pt-gane-tambang-sentosa/", "params": {}, "status": 404, "billed": 1, "cumulative": 9}
+{"ts": "2026-08-28T09:10:09+00:00", "path": "/v2/mining/companies/performance/pt-triaryani/", "params": {}, "status": 404, "billed": 1, "cumulative": 10}
+{"ts": "2026-08-28T09:10:10+00:00", "path": "/v2/mining/companies/performance/pt-arkara-prathama-energi/", "params": {}, "status": 404, "billed": 1, "cumulative": 11}
+{"ts": "2026-08-28T09:10:10+00:00", "path": "/v2/mining/companies/performance/pt-gane-permai-sentosa/", "params": {}, "status": 404, "billed": 1, "cumulative": 12}
+{"ts": "2026-08-28T09:10:10+00:00", "path": "/v2/mining/companies/performance/pt-baradinamika-mudasukses/", "params": {}, "status": 404, "billed": 1, "cumulative": 13}
+{"ts": "2026-08-28T09:10:11+00:00", "path": "/v2/mining/companies/performance/pt-itamatra-nusantara/", "params": {}, "status": 404, "billed": 1, "cumulative": 14}
+{"ts": "2026-08-28T09:10:11+00:00", "path": "/v2/mining/companies/performance/pt-garda-tujuh-buana-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 15}
+{"ts": "2026-08-28T09:10:12+00:00", "path": "/v2/mining/companies/performance/pt-patrindo-jaya-makmur/", "params": {}, "status": 404, "billed": 1, "cumulative": 16}
+{"ts": "2026-08-28T09:10:12+00:00", "path": "/v2/mining/companies/performance/pt-bumi-konawe-abadi/", "params": {}, "status": 404, "billed": 1, "cumulative": 17}
+{"ts": "2026-08-28T09:10:13+00:00", "path": "/v2/mining/companies/performance/pt-abm-investama-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 18}
+{"ts": "2026-08-28T09:10:14+00:00", "path": "/v2/mining/companies/performance/pt-alfa-energi-investama-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 19}
+{"ts": "2026-08-28T09:10:14+00:00", "path": "/v2/mining/companies/performance/pt-ancara-logistics-indonesia-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 20}
+{"ts": "2026-08-28T09:10:15+00:00", "path": "/v2/mining/sites/", "params": {"commodity_type": "Copper", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 21}
+{"ts": "2026-08-28T09:10:17+00:00", "path": "/v2/mining/sites/batu-hijau/", "params": {}, "status": 200, "billed": 1, "cumulative": 22}
+{"ts": "2026-08-28T09:10:19+00:00", "path": "/v2/mining/sites/tujuh-bukit/", "params": {}, "status": 200, "billed": 1, "cumulative": 23}
+{"ts": "2026-08-28T09:10:20+00:00", "path": "/v2/mining/sites/tambang-bakan/", "params": {}, "status": 200, "billed": 1, "cumulative": 24}
+{"ts": "2026-08-28T09:10:22+00:00", "path": "/v2/mining/sites/sangatta/", "params": {}, "status": 200, "billed": 1, "cumulative": 25}
+{"ts": "2026-08-28T09:10:24+00:00", "path": "/v2/mining/sites/bengalon/", "params": {}, "status": 200, "billed": 1, "cumulative": 26}
+{"ts": "2026-08-28T09:10:26+00:00", "path": "/v2/mining/sites/kintap/", "params": {}, "status": 200, "billed": 1, "cumulative": 27}
+{"ts": "2026-08-28T09:10:27+00:00", "path": "/v2/mining/sites/sarongga/", "params": {}, "status": 200, "billed": 1, "cumulative": 28}
+{"ts": "2026-08-28T09:10:29+00:00", "path": "/v2/mining/sites/muliajumbang/", "params": {}, "status": 200, "billed": 1, "cumulative": 29}
+{"ts": "2026-08-28T09:10:31+00:00", "path": "/v2/mining/sites/asam-asam/", "params": {}, "status": 200, "billed": 1, "cumulative": 30}
+{"ts": "2026-08-28T09:10:32+00:00", "path": "/v2/mining/sites/satui/", "params": {}, "status": 200, "billed": 1, "cumulative": 31}
+{"ts": "2026-08-28T09:10:34+00:00", "path": "/v2/mining/sites/senakin/", "params": {}, "status": 200, "billed": 1, "cumulative": 32}
+{"ts": "2026-08-28T09:10:36+00:00", "path": "/v2/mining/sites/paringin-utara/", "params": {}, "status": 200, "billed": 1, "cumulative": 33}
+{"ts": "2026-08-28T09:10:38+00:00", "path": "/v2/mining/sites/wara-i/", "params": {}, "status": 200, "billed": 1, "cumulative": 34}
+{"ts": "2026-08-28T09:10:39+00:00", "path": "/v2/mining/sites/wara-ii/", "params": {}, "status": 200, "billed": 1, "cumulative": 35}
+{"ts": "2026-08-28T09:10:41+00:00", "path": "/v2/mining/sites/batubara-hamarung/", "params": {}, "status": 200, "billed": 1, "cumulative": 36}
+{"ts": "2026-08-28T09:10:44+00:00", "path": "/v2/mining/sites/batubara-piyait/", "params": {}, "status": 200, "billed": 1, "cumulative": 37}
+{"ts": "2026-08-28T09:10:45+00:00", "path": "/v2/mining/sites/batubara-tawahan/", "params": {}, "status": 200, "billed": 1, "cumulative": 38}
+{"ts": "2026-08-28T09:10:47+00:00", "path": "/v2/mining/sites/batubara-gunung-kembang/", "params": {}, "status": 200, "billed": 1, "cumulative": 39}
+{"ts": "2026-08-28T09:10:49+00:00", "path": "/v2/mining/sites/batubara-melapeh-baru-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 40}
+{"ts": "2026-08-28T09:10:51+00:00", "path": "/v2/mining/sites/batubara-danum-paro/", "params": {}, "status": 200, "billed": 1, "cumulative": 41}
+{"ts": "2026-08-28T09:10:53+00:00", "path": "/v2/mining/sites/batubara-bumbun/", "params": {}, "status": 200, "billed": 1, "cumulative": 42}
+{"ts": "2026-08-28T09:10:54+00:00", "path": "/v2/mining/sites/juloi-northwest/", "params": {}, "status": 200, "billed": 1, "cumulative": 43}
+{"ts": "2026-08-28T09:10:56+00:00", "path": "/v2/mining/sites/luon-block/", "params": {}, "status": 200, "billed": 1, "cumulative": 44}
+{"ts": "2026-08-28T09:10:58+00:00", "path": "/v2/mining/sites/batubara-dahlia/", "params": {}, "status": 200, "billed": 1, "cumulative": 45}
+{"ts": "2026-08-28T09:11:00+00:00", "path": "/v2/mining/sites/haju-block/", "params": {}, "status": 200, "billed": 1, "cumulative": 46}
+{"ts": "2026-08-28T09:11:02+00:00", "path": "/v2/mining/sites/bara-block/", "params": {}, "status": 200, "billed": 1, "cumulative": 47}
+{"ts": "2026-08-28T09:11:04+00:00", "path": "/v2/mining/sites/lumpunut-block/", "params": {}, "status": 200, "billed": 1, "cumulative": 48}
+{"ts": "2026-08-28T09:11:05+00:00", "path": "/v2/mining/sites/batubara-muara-ritan-2/", "params": {}, "status": 200, "billed": 1, "cumulative": 49}
+{"ts": "2026-08-28T09:11:07+00:00", "path": "/v2/mining/sites/batubara-muara-ritan-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 50}
+{"ts": "2026-08-28T09:11:09+00:00", "path": "/v2/mining/sites/batubara-long-lalang-2/", "params": {}, "status": 200, "billed": 1, "cumulative": 51}
+{"ts": "2026-08-28T09:11:10+00:00", "path": "/v2/mining/sites/batubara-gunung-sari-2/", "params": {}, "status": 200, "billed": 1, "cumulative": 52}
+{"ts": "2026-08-28T09:11:12+00:00", "path": "/v2/mining/sites/batubara-beruang/", "params": {}, "status": 200, "billed": 1, "cumulative": 53}
+{"ts": "2026-08-28T09:11:13+00:00", "path": "/v2/mining/sites/batubara-sungai-cuka-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 54}
+{"ts": "2026-08-28T09:11:15+00:00", "path": "/v2/mining/sites/batubara-lisat/", "params": {}, "status": 200, "billed": 1, "cumulative": 55}
+{"ts": "2026-08-28T09:11:16+00:00", "path": "/v2/mining/sites/batubara-batulicin/", "params": {}, "status": 200, "billed": 1, "cumulative": 56}
+{"ts": "2026-08-28T09:11:18+00:00", "path": "/v2/mining/sites/batubara-sarijaya/", "params": {}, "status": 200, "billed": 1, "cumulative": 57}
+{"ts": "2026-08-28T09:11:20+00:00", "path": "/v2/mining/sites/batubara-dasaq-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 58}
+{"ts": "2026-08-28T09:11:21+00:00", "path": "/v2/mining/sites/batubara-sumber-arum/", "params": {}, "status": 200, "billed": 1, "cumulative": 59}
+{"ts": "2026-08-28T09:11:23+00:00", "path": "/v2/mining/sites/batubara-jujuhan-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 60}
+{"ts": "2026-08-28T09:11:26+00:00", "path": "/v2/mining/sites/batubara-lubuk-bintialo-2/", "params": {}, "status": 200, "billed": 1, "cumulative": 61}
+{"ts": "2026-08-28T09:11:27+00:00", "path": "/v2/mining/sites/batubara-liangbuah/", "params": {}, "status": 429, "billed": 0, "cumulative": 61}
+{"ts": "2026-08-28T09:11:29+00:00", "path": "/v2/mining/sites/batubara-liangbuah/", "params": {}, "status": 429, "billed": 0, "cumulative": 61}
+{"ts": "2026-08-28T09:11:32+00:00", "path": "/v2/mining/sites/batubara-liangbuah/", "params": {}, "status": 429, "billed": 0, "cumulative": 61}
+{"ts": "2026-08-28T09:11:39+00:00", "path": "/v2/mining/sites/batubara-liangbuah/", "params": {}, "status": 429, "billed": 0, "cumulative": 61}
+{"ts": "2026-08-28T09:11:51+00:00", "path": "/v2/mining/sites/batubara-liangbuah/", "params": {}, "status": 200, "billed": 1, "cumulative": 62}
+{"ts": "2026-08-28T09:11:53+00:00", "path": "/v2/mining/sites/batubara-pelakan-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 63}
+{"ts": "2026-08-28T09:11:55+00:00", "path": "/v2/mining/sites/batubara-tukul/", "params": {}, "status": 200, "billed": 1, "cumulative": 64}
+{"ts": "2026-08-28T09:11:57+00:00", "path": "/v2/mining/sites/batubara-jelmu-sibak/", "params": {}, "status": 200, "billed": 1, "cumulative": 65}
+{"ts": "2026-08-28T09:11:59+00:00", "path": "/v2/mining/sites/batubara-benangin-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 66}
+{"ts": "2026-08-28T09:12:01+00:00", "path": "/v2/mining/sites/batubara-batalang/", "params": {}, "status": 200, "billed": 1, "cumulative": 67}
+{"ts": "2026-08-28T09:12:03+00:00", "path": "/v2/mining/sites/batubara-pelencau/", "params": {}, "status": 200, "billed": 1, "cumulative": 68}
+{"ts": "2026-08-28T09:12:05+00:00", "path": "/v2/mining/sites/batubara-kertadewa/", "params": {}, "status": 200, "billed": 1, "cumulative": 69}
+{"ts": "2026-08-28T09:12:07+00:00", "path": "/v2/mining/sites/batubara-karendan-2/", "params": {}, "status": 200, "billed": 1, "cumulative": 70}
+{"ts": "2026-08-28T09:12:08+00:00", "path": "/v2/mining/sites/batubara-sungai-mega/", "params": {}, "status": 200, "billed": 1, "cumulative": 71}
+{"ts": "2026-08-28T09:12:10+00:00", "path": "/v2/mining/sites/batubara-bukit-kendi-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 72}
+{"ts": "2026-08-28T09:12:12+00:00", "path": "/v2/mining/sites/batubara-kerta-buana-b/", "params": {}, "status": 200, "billed": 1, "cumulative": 73}
+{"ts": "2026-08-28T09:12:14+00:00", "path": "/v2/mining/sites/batubara-birawa/", "params": {}, "status": 200, "billed": 1, "cumulative": 74}
+{"ts": "2026-08-28T09:12:16+00:00", "path": "/v2/mining/sites/batubara-sangkurang/", "params": {}, "status": 200, "billed": 1, "cumulative": 75}
+{"ts": "2026-08-28T09:12:17+00:00", "path": "/v2/mining/sites/batubara-mulawarman-1/", "params": {}, "status": 200, "billed": 1, "cumulative": 76}
+{"ts": "2026-08-28T09:12:19+00:00", "path": "/v2/mining/sites/batubara-mukti-jaya/", "params": {}, "status": 200, "billed": 1, "cumulative": 77}
+{"ts": "2026-08-28T09:12:21+00:00", "path": "/v2/mining/sites/batubara-legai/", "params": {}, "status": 200, "billed": 1, "cumulative": 78}
+{"ts": "2026-08-28T09:12:23+00:00", "path": "/v2/mining/sites/batubara-siung-malopot/", "params": {}, "status": 200, "billed": 1, "cumulative": 79}
+{"ts": "2026-08-28T09:12:24+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'oil-gas-coal'", "limit": 30}, "status": 200, "billed": 1, "cumulative": 80}
+{"ts": "2026-08-28T09:12:26+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'oil-gas-coal'", "order_by": "-market_cap", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 81}
+{"ts": "2026-08-28T09:12:27+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'oil-gas-coal'", "order_by": "-market_cap", "limit": 30, "offset": 30}, "status": 200, "billed": 1, "cumulative": 82}
+{"ts": "2026-08-28T09:12:29+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'oil-gas-coal'", "order_by": "-market_cap", "limit": 30, "offset": 60}, "status": 200, "billed": 1, "cumulative": 83}
+{"ts": "2026-08-28T09:12:31+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'basic-materials'", "limit": 30}, "status": 200, "billed": 1, "cumulative": 84}
+{"ts": "2026-08-28T09:12:32+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'basic-materials'", "order_by": "-market_cap", "limit": 30, "offset": 0}, "status": 200, "billed": 1, "cumulative": 85}
+{"ts": "2026-08-28T09:12:34+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'basic-materials'", "order_by": "-market_cap", "limit": 30, "offset": 30}, "status": 200, "billed": 1, "cumulative": 86}
+{"ts": "2026-08-28T09:12:35+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'basic-materials'", "order_by": "-market_cap", "limit": 30, "offset": 60}, "status": 200, "billed": 1, "cumulative": 87}
+{"ts": "2026-08-28T09:12:36+00:00", "path": "/v2/companies/", "params": {"where": "sub_sector = 'basic-materials'", "order_by": "-market_cap", "limit": 30, "offset": 90}, "status": 200, "billed": 1, "cumulative": 88}
+{"ts": "2026-08-28T09:12:38+00:00", "path": "/v2/company/report/AADI.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 89}
+{"ts": "2026-08-28T09:12:39+00:00", "path": "/v2/company/report/ADMR.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 90}
+{"ts": "2026-08-28T09:12:41+00:00", "path": "/v2/company/report/AMMN.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 91}
+{"ts": "2026-08-28T09:12:42+00:00", "path": "/v2/company/report/ANTM.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 92}
+{"ts": "2026-08-28T09:12:44+00:00", "path": "/v2/company/report/ARCI.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 93}
+{"ts": "2026-08-28T09:12:45+00:00", "path": "/v2/company/report/ARII.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 94}
+{"ts": "2026-08-28T09:12:47+00:00", "path": "/v2/company/report/BRMS.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 95}
+{"ts": "2026-08-28T09:12:48+00:00", "path": "/v2/company/report/BSSR.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 96}
+{"ts": "2026-08-28T09:12:50+00:00", "path": "/v2/company/report/BUMI.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 97}
+{"ts": "2026-08-28T09:12:51+00:00", "path": "/v2/company/report/BYAN.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 98}
+{"ts": "2026-08-28T09:12:53+00:00", "path": "/v2/company/report/CUAN.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 99}
+{"ts": "2026-08-28T09:12:54+00:00", "path": "/v2/company/report/DKFT.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 100}
+{"ts": "2026-08-28T09:12:56+00:00", "path": "/v2/company/report/GEMS.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 101}
+{"ts": "2026-08-28T09:12:58+00:00", "path": "/v2/company/report/GTBO.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 102}
+{"ts": "2026-08-28T09:12:59+00:00", "path": "/v2/company/report/HRUM.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 103}
+{"ts": "2026-08-28T09:13:00+00:00", "path": "/v2/company/report/IFSH.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 104}
+{"ts": "2026-08-28T09:13:02+00:00", "path": "/v2/company/report/INCO.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 105}
+{"ts": "2026-08-28T09:13:04+00:00", "path": "/v2/company/report/INDY.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 106}
+{"ts": "2026-08-28T09:13:05+00:00", "path": "/v2/company/report/ITMG.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 107}
+{"ts": "2026-08-28T09:13:07+00:00", "path": "/v2/company/report/KKGI.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 108}
+{"ts": "2026-08-28T09:13:08+00:00", "path": "/v2/company/report/MBAP.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 109}
+{"ts": "2026-08-28T09:13:10+00:00", "path": "/v2/company/report/MBMA.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 110}
+{"ts": "2026-08-28T09:13:11+00:00", "path": "/v2/company/report/MCOL.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 111}
+{"ts": "2026-08-28T09:13:13+00:00", "path": "/v2/company/report/MDKA.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 112}
+{"ts": "2026-08-28T09:13:14+00:00", "path": "/v2/company/report/NCKL.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 113}
+{"ts": "2026-08-28T09:13:16+00:00", "path": "/v2/company/report/NICE.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 114}
+{"ts": "2026-08-28T09:13:17+00:00", "path": "/v2/company/report/NICL.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 115}
+{"ts": "2026-08-28T09:13:19+00:00", "path": "/v2/company/report/PKPK.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 116}
+{"ts": "2026-08-28T09:13:20+00:00", "path": "/v2/company/report/PSAB.JK/", "params": {"sections": "overview"}, "status": 429, "billed": 0, "cumulative": 116}
+{"ts": "2026-08-28T09:13:22+00:00", "path": "/v2/company/report/PSAB.JK/", "params": {"sections": "overview"}, "status": 429, "billed": 0, "cumulative": 116}
+{"ts": "2026-08-28T09:13:25+00:00", "path": "/v2/company/report/PSAB.JK/", "params": {"sections": "overview"}, "status": 429, "billed": 0, "cumulative": 116}
+{"ts": "2026-08-28T09:13:32+00:00", "path": "/v2/company/report/PSAB.JK/", "params": {"sections": "overview"}, "status": 429, "billed": 0, "cumulative": 116}
+{"ts": "2026-08-28T09:13:44+00:00", "path": "/v2/company/report/PSAB.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 117}
+{"ts": "2026-08-28T09:13:46+00:00", "path": "/v2/company/report/PTBA.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 118}
+{"ts": "2026-08-28T09:13:47+00:00", "path": "/v2/company/report/PTRO.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 119}
+{"ts": "2026-08-28T09:13:49+00:00", "path": "/v2/company/report/SMMT.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 120}
+{"ts": "2026-08-28T09:13:50+00:00", "path": "/v2/company/report/TOBA.JK/", "params": {"sections": "overview"}, "status": 200, "billed": 1, "cumulative": 121}
+{"ts": "2026-08-28T09:13:52+00:00", "path": "/v2/mining/sales-destination/pt-vale-indonesia/", "params": {}, "status": 404, "billed": 1, "cumulative": 122}
+{"ts": "2026-08-28T09:13:53+00:00", "path": "/v2/mining/sales-destination/pt-citra-palu-mineral/", "params": {}, "status": 404, "billed": 1, "cumulative": 123}
+{"ts": "2026-08-28T09:13:54+00:00", "path": "/v2/mining/sales-destination/pt-kaltim-prima-coal/", "params": {}, "status": 404, "billed": 1, "cumulative": 124}
+{"ts": "2026-08-28T09:13:54+00:00", "path": "/v2/mining/sales-destination/pt-aneka-tambang-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 125}
+{"ts": "2026-08-28T09:13:55+00:00", "path": "/v2/mining/sales-destination/pt-lahai-coal/", "params": {}, "status": 404, "billed": 1, "cumulative": 126}
+{"ts": "2026-08-28T09:13:55+00:00", "path": "/v2/mining/sales-destination/pt-j-resources-bolaang-mongondow/", "params": {}, "status": 404, "billed": 1, "cumulative": 127}
+{"ts": "2026-08-28T09:13:56+00:00", "path": "/v2/mining/sales-destination/pt-arutmin-indonesia/", "params": {}, "status": 404, "billed": 1, "cumulative": 128}
+{"ts": "2026-08-28T09:13:56+00:00", "path": "/v2/mining/sales-destination/pt-kideco-jaya-agung/", "params": {}, "status": 404, "billed": 1, "cumulative": 129}
+{"ts": "2026-08-28T09:13:57+00:00", "path": "/v2/mining/sales-destination/pt-amman-mineral-nusa-tenggara/", "params": {}, "status": 404, "billed": 1, "cumulative": 130}
+{"ts": "2026-08-28T09:13:58+00:00", "path": "/v2/mining/sales-destination/pt-maruwai-coal/", "params": {}, "status": 404, "billed": 1, "cumulative": 131}
+{"ts": "2026-08-28T09:13:58+00:00", "path": "/v2/mining/sales-destination/pt-multi-tambangjaya-utama/", "params": {}, "status": 404, "billed": 1, "cumulative": 132}
+{"ts": "2026-08-28T09:13:59+00:00", "path": "/v2/mining/sales-destination/pt-insani-bara-perkasa/", "params": {}, "status": 404, "billed": 1, "cumulative": 133}
+{"ts": "2026-08-28T09:13:59+00:00", "path": "/v2/mining/sales-destination/pt-indominco-mandiri/", "params": {}, "status": 404, "billed": 1, "cumulative": 134}
+{"ts": "2026-08-28T09:14:00+00:00", "path": "/v2/mining/sales-destination/pt-borneo-indobara/", "params": {}, "status": 404, "billed": 1, "cumulative": 135}
+{"ts": "2026-08-28T09:14:00+00:00", "path": "/v2/mining/sales-destination/pt-adaro-indonesia/", "params": {}, "status": 404, "billed": 1, "cumulative": 136}
+{"ts": "2026-08-28T09:14:00+00:00", "path": "/v2/mining/sales-destination/pt-barasentosa-lestari/", "params": {}, "status": 404, "billed": 1, "cumulative": 137}
+{"ts": "2026-08-28T09:14:01+00:00", "path": "/v2/mining/sales-destination/pt-trubaindo-coal-mining/", "params": {}, "status": 404, "billed": 1, "cumulative": 138}
+{"ts": "2026-08-28T09:14:02+00:00", "path": "/v2/mining/sales-destination/pt-mahakam-sumber-jaya/", "params": {}, "status": 404, "billed": 1, "cumulative": 139}
+{"ts": "2026-08-28T09:14:03+00:00", "path": "/v2/mining/sales-destination/pt-gunungbayan-pratamacoal/", "params": {}, "status": 404, "billed": 1, "cumulative": 140}
+{"ts": "2026-08-28T09:14:03+00:00", "path": "/v2/mining/sales-destination/pt-perkasa-inakakerta/", "params": {}, "status": 404, "billed": 1, "cumulative": 141}
+{"ts": "2026-08-28T09:14:04+00:00", "path": "/v2/mining/sales-destination/pt-bharinto-ekatama/", "params": {}, "status": 404, "billed": 1, "cumulative": 142}
+{"ts": "2026-08-28T09:14:04+00:00", "path": "/v2/mining/sales-destination/pt-santan-batubara/", "params": {}, "status": 404, "billed": 1, "cumulative": 143}
+{"ts": "2026-08-28T09:14:05+00:00", "path": "/v2/mining/sales-destination/pt-firman-ketaun-perkasa/", "params": {}, "status": 404, "billed": 1, "cumulative": 144}
+{"ts": "2026-08-28T09:14:05+00:00", "path": "/v2/mining/sales-destination/pt-mandiri-intiperkasa/", "params": {}, "status": 404, "billed": 1, "cumulative": 145}
+{"ts": "2026-08-28T09:14:06+00:00", "path": "/v2/mining/sales-destination/pt-wahana-baratama-mining/", "params": {}, "status": 404, "billed": 1, "cumulative": 146}
+{"ts": "2026-08-28T09:14:06+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 146}
+{"ts": "2026-08-28T09:14:08+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 146}
+{"ts": "2026-08-28T09:14:11+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 146}
+{"ts": "2026-08-28T09:14:18+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 146}
+{"ts": "2026-08-28T09:14:30+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 429, "billed": 0, "cumulative": 146}
+{"ts": "2026-08-28T09:14:55+00:00", "path": "/v2/mining/sales-destination/pt-graha-panca-karsa/", "params": {}, "status": 404, "billed": 1, "cumulative": 147}
+{"ts": "2026-08-28T09:14:56+00:00", "path": "/v2/mining/sales-destination/pt-bumi-suksesindo/", "params": {}, "status": 404, "billed": 1, "cumulative": 148}
+{"ts": "2026-08-28T09:14:57+00:00", "path": "/v2/mining/sales-destination/pt-jorong-barutama-greston/", "params": {}, "status": 404, "billed": 1, "cumulative": 149}
+{"ts": "2026-08-28T09:14:57+00:00", "path": "/v2/mining/sales-destination/pt-loa-haur/", "params": {}, "status": 404, "billed": 1, "cumulative": 150}
+{"ts": "2026-08-28T09:14:58+00:00", "path": "/v2/mining/sales-destination/pt-trimegah-bangun-persada-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 151}
+{"ts": "2026-08-28T09:14:58+00:00", "path": "/v2/mining/sales-destination/pt-paramitha-cipta-sarana/", "params": {}, "status": 404, "billed": 1, "cumulative": 152}
+{"ts": "2026-08-28T09:14:59+00:00", "path": "/v2/mining/sales-destination/pt-baramulti-suksessarana-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 153}
+{"ts": "2026-08-28T09:14:59+00:00", "path": "/v2/mining/sales-destination/pt-tepian-indah-sukses/", "params": {}, "status": 404, "billed": 1, "cumulative": 154}
+{"ts": "2026-08-28T09:15:00+00:00", "path": "/v2/mining/sales-destination/pt-mustika-indah-permai/", "params": {}, "status": 404, "billed": 1, "cumulative": 155}
+{"ts": "2026-08-28T09:15:00+00:00", "path": "/v2/mining/sales-destination/pt-adhi-kartiko-pratama-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 156}
+{"ts": "2026-08-28T09:15:01+00:00", "path": "/v2/mining/sales-destination/pt-mitrabara-adiperdana-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 157}
+{"ts": "2026-08-28T09:15:02+00:00", "path": "/v2/mining/sales-destination/pt-ifishdeco-tbk/", "params": {}, "status": 404, "billed": 1, "cumulative": 158}
+{"ts": "2026-08-28T09:15:02+00:00", "path": "/v2/mining/sales-destination/pt-kuansing-inti-makmur/", "params": {}, "status": 404, "billed": 1, "cumulative": 159}
+{"ts": "2026-08-28T09:15:02+00:00", "path": "/v2/mining/sales-destination/pt-adaro-andalan-indonesia-tbk/", "params": {}, "status": 200, "billed": 1, "cumulative": 160}

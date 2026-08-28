@@ -1,0 +1,211 @@
+{
+ "as_of": "2026-08-28",
+ "metrics": {
+  "symbol": "INDY.JK",
+  "company_name": "Indika Energy Tbk",
+  "sub_sector": "Oil, Gas & Coal",
+  "market_cap": 14432231840000,
+  "market_cap_rank": 125,
+  "entity_count": 3,
+  "entities": [
+   "pt-indika-energy-tbk",
+   "pt-kideco-jaya-agung",
+   "pt-masmindo-dwi-area"
+  ],
+  "license_count": 2,
+  "lci_12m": 0.0,
+  "lci_24m": 0.0,
+  "lci_36m": 0.0,
+  "expired_share": 0.0,
+  "licensed_ha_weighted": 38867.369999999995,
+  "lci_flag": "neutral",
+  "lci_counts": {
+   "0_12m": 0,
+   "12_24m": 0,
+   "24_36m": 0,
+   "expired": 0,
+   "no_date": 0,
+   "total": 2
+  },
+  "rli_years": 15.250814332247558,
+  "rli_flag": "neutral",
+  "dominant_commodity": "Coal",
+  "commodity_source": "production",
+  "reserves": 238.782,
+  "reserve_unit": "Mt",
+  "production": 15.657,
+  "unit_mismatch": false,
+  "rli_entities_contributing": 1,
+  "strip_ratio_latest": 5.7,
+  "strip_ratio_points": [
+   [
+    2021.0,
+    5.0
+   ],
+   [
+    2022.0,
+    5.1
+   ],
+   [
+    2023.0,
+    5.6
+   ],
+   [
+    2024.0,
+    5.7
+   ]
+  ],
+  "strip_ratio_slope": 0.26000000000000006,
+  "strip_flag": "red",
+  "reserve_replacement_ratio": 0.34309623430962327,
+  "reserve_replacement_entities": 1,
+  "hhi": null,
+  "hhi_top_country": null,
+  "hhi_max_share": null,
+  "hhi_flag": "unknown",
+  "hhi_basis": null,
+  "market_cap_per_reserve_unit": 60441037599.14901,
+  "site_coords": [
+   {
+    "slug": "batubara-legai",
+    "name": "Batubara Legai",
+    "lat": -1.94227,
+    "lon": 115.87585,
+    "commodity": "Coal",
+    "production": null,
+    "unit": "Mt",
+    "reserves": 396.9,
+    "reserve_unit": "Mt"
+   }
+  ],
+  "performance_years": [
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "licenses": [
+  {
+   "wiup_code": "1300003032014049",
+   "license_number": "14/1/IUP/PMA/2022",
+   "license_type": "IUPK",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Coal",
+   "province": "Kalimantan Timur",
+   "city": "Kabupaten Paser",
+   "company_name": "PT Kideco Jaya Agung",
+   "company_slug": "pt-kideco-jaya-agung",
+   "effective_date": "2022-12-16",
+   "expiry_date": "2033-03-13",
+   "months_to_expiry": 78.5,
+   "area_ha": 33887.0,
+   "cnc": "CNC",
+   "attributable_share": 0.51,
+   "resolution_method": "ownership_tree",
+   "resolution_confidence": 0.95
+  },
+  {
+   "wiup_code": "1400002062014133",
+   "license_number": "171.K/30/DJB/2018",
+   "license_type": "KK",
+   "activity": "Operasi Produksi",
+   "commodity_type": "Gold",
+   "province": "Sulawesi Selatan",
+   "city": "Kabupaten Luwu",
+   "company_name": "PT Masmindo Dwi Area",
+   "company_slug": "pt-masmindo-dwi-area",
+   "effective_date": "2018-01-16",
+   "expiry_date": "2050-06-19",
+   "months_to_expiry": 285.7,
+   "area_ha": 14390.0,
+   "cnc": null,
+   "attributable_share": 1.0,
+   "resolution_method": "ownership_tree",
+   "resolution_confidence": 0.95
+  }
+ ],
+ "performance": [
+  {
+   "year": 2021,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 35.8,
+   "sales_volume": 35.8,
+   "strip_ratio": 5.0,
+   "overburden_removal_volume": 179.9,
+   "reserves": 531.0,
+   "reserve_unit": "Mt",
+   "resources": 1550.0,
+   "resource_unit": "Mt",
+   "measurement_year": 2020,
+   "company_slug": "pt-kideco-jaya-agung"
+  },
+  {
+   "year": 2022,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 34.8,
+   "sales_volume": 34.8,
+   "strip_ratio": 5.1,
+   "overburden_removal_volume": 175.8,
+   "reserves": 531.0,
+   "reserve_unit": "Mt",
+   "resources": 1550.0,
+   "resource_unit": "Mt",
+   "measurement_year": 2020,
+   "company_slug": "pt-kideco-jaya-agung"
+  },
+  {
+   "year": 2023,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 30.1,
+   "sales_volume": 30.5,
+   "strip_ratio": 5.6,
+   "overburden_removal_volume": 167.7,
+   "reserves": 531.0,
+   "reserve_unit": "Mt",
+   "resources": 1550.0,
+   "resource_unit": "Mt",
+   "measurement_year": 2020,
+   "company_slug": "pt-kideco-jaya-agung"
+  },
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Thermal Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 30.7,
+   "sales_volume": 31.1,
+   "strip_ratio": 5.7,
+   "overburden_removal_volume": 174.5,
+   "reserves": 468.2,
+   "reserve_unit": "Mt",
+   "resources": 1449.0,
+   "resource_unit": "Mt",
+   "measurement_year": 2024,
+   "company_slug": "pt-kideco-jaya-agung"
+  }
+ ],
+ "sites": [
+  {
+   "slug": "batubara-legai",
+   "name": "Batubara Legai",
+   "lat": -1.94227,
+   "lon": 115.87585,
+   "commodity": "Coal",
+   "production": null,
+   "unit": "Mt",
+   "reserves": 396.9,
+   "reserve_unit": "Mt"
+  }
+ ]
+}

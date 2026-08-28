@@ -1,0 +1,81 @@
+{
+ "as_of": "2026-08-28",
+ "metrics": {
+  "symbol": "ADRO.JK",
+  "company_name": null,
+  "sub_sector": null,
+  "market_cap": null,
+  "market_cap_rank": null,
+  "entity_count": 2,
+  "entities": [
+   "pt-alamtri-resources-indonesia-tbk",
+   "pt-saptaindra-sejati"
+  ],
+  "license_count": 0,
+  "lci_12m": null,
+  "lci_24m": null,
+  "lci_36m": null,
+  "expired_share": null,
+  "licensed_ha_weighted": 0.0,
+  "lci_flag": "unknown",
+  "lci_counts": {
+   "0_12m": 0,
+   "12_24m": 0,
+   "24_36m": 0,
+   "expired": 0,
+   "no_date": 0,
+   "total": 0
+  },
+  "rli_years": 15.411509900990099,
+  "rli_flag": "neutral",
+  "dominant_commodity": "Coal",
+  "commodity_source": "production",
+  "reserves": 996.2,
+  "reserve_unit": "Mt",
+  "production": 64.64,
+  "unit_mismatch": false,
+  "rli_entities_contributing": 1,
+  "strip_ratio_latest": 3.9,
+  "strip_ratio_points": [
+   [
+    2024.0,
+    3.9
+   ]
+  ],
+  "strip_ratio_slope": null,
+  "strip_flag": "unknown",
+  "reserve_replacement_ratio": null,
+  "reserve_replacement_entities": 0,
+  "hhi": null,
+  "hhi_top_country": null,
+  "hhi_max_share": null,
+  "hhi_flag": "unknown",
+  "hhi_basis": null,
+  "market_cap_per_reserve_unit": null,
+  "site_coords": [],
+  "performance_years": [
+   2024
+  ]
+ },
+ "licenses": [],
+ "performance": [
+  {
+   "year": 2024,
+   "commodity_type": "Coal",
+   "commodity_sub_type": "Sub-bituminous & Metallurgical Coal",
+   "unit": "Mt",
+   "operation_status": "production",
+   "production_volume": 64.64,
+   "sales_volume": 71.36,
+   "strip_ratio": 3.9,
+   "overburden_removal_volume": 252.94,
+   "reserves": 996.2,
+   "reserve_unit": "Mt",
+   "resources": 5356.9,
+   "resource_unit": "Mt",
+   "measurement_year": 2024,
+   "company_slug": "pt-alamtri-resources-indonesia-tbk"
+  }
+ ],
+ "sites": []
+}
