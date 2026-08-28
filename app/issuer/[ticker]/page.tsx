@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Flag, { FlagCell } from "@/components/Flag";
-import { fmtIDR, fmtNum, fmtPct, getIssuer, getTickers } from "@/lib/data";
+import { fmtFixed, fmtIDR, fmtNum, fmtPct, getIssuer, getTickers } from "@/lib/data";
 
 export function generateStaticParams() {
   return getTickers().map((ticker) => ({ ticker }));
@@ -66,7 +66,7 @@ export default async function IssuerPage({
         />
         <Card
           label="Reserve life"
-          value={m.rli_years === null ? "—" : `${fmtNum(m.rli_years, 1)} yr`}
+          value={m.rli_years === null ? "—" : `${fmtFixed(m.rli_years, 1)} yr`}
           flag={m.rli_flag}
           note={
             m.reserves
@@ -80,7 +80,7 @@ export default async function IssuerPage({
         <div className="panel px-3 py-2.5">
           <span className="label">Strip ratio</span>
           <div className="mono mt-1.5 text-[22px] leading-none">
-            {fmtNum(m.strip_ratio_latest, 2)}
+            {fmtFixed(m.strip_ratio_latest, 2)}
           </div>
           <div className="mt-1.5 text-[10.5px] leading-snug">
             {m.strip_ratio_slope === null ? (
@@ -88,7 +88,7 @@ export default async function IssuerPage({
             ) : (
               <FlagCell flag={m.strip_flag}>
                 {m.strip_ratio_slope > 0 ? "▲" : m.strip_ratio_slope < 0 ? "▼" : ""}
-                {fmtNum(Math.abs(m.strip_ratio_slope), 3)} /yr over{" "}
+                {fmtFixed(Math.abs(m.strip_ratio_slope), 3)} /yr over{" "}
                 {m.strip_ratio_years ?? 0} yrs
               </FlagCell>
             )}
@@ -99,7 +99,7 @@ export default async function IssuerPage({
           value={
             m.reserve_replacement_ratio === null
               ? "—"
-              : `${fmtNum(m.reserve_replacement_ratio, 2)}${m.reserve_replacement_outlier ? "*" : ""}`
+              : `${fmtFixed(m.reserve_replacement_ratio, 2)}${m.reserve_replacement_outlier ? "*" : ""}`
           }
           flag={m.reserve_replacement_outlier ? "unknown" : m.reserve_replacement_flag}
           note={
@@ -110,7 +110,7 @@ export default async function IssuerPage({
         />
         <Card
           label="Buyer concentration"
-          value={fmtNum(m.hhi, 2)}
+          value={fmtFixed(m.hhi, 2)}
           flag={m.hhi_flag}
           note={
             m.hhi_top_country
@@ -261,10 +261,10 @@ export default async function IssuerPage({
                         <td className="text-xs text-muted">
                           {r.commodity_sub_type ?? r.commodity_type ?? "—"}
                         </td>
-                        <td className="num">{fmtNum(r.production_volume, 2)}</td>
-                        <td className="num text-muted">{fmtNum(r.sales_volume, 2)}</td>
-                        <td className="num">{fmtNum(r.strip_ratio, 2)}</td>
-                        <td className="num text-muted">{fmtNum(r.reserves, 1)}</td>
+                        <td className="num">{fmtFixed(r.production_volume, 2)}</td>
+                        <td className="num text-muted">{fmtFixed(r.sales_volume, 2)}</td>
+                        <td className="num">{fmtFixed(r.strip_ratio, 2)}</td>
+                        <td className="num text-muted">{fmtFixed(r.reserves, 1)}</td>
                         <td className="text-xs text-muted">{r.unit ?? "—"}</td>
                       </tr>
                     )),
@@ -295,14 +295,14 @@ export default async function IssuerPage({
                     <td className="text-xs">{s.name ?? s.slug}</td>
                     <td className="text-xs text-muted">{s.commodity ?? "—"}</td>
                     <td className="num">
-                      {fmtNum(s.production, 2)}{" "}
+                      {fmtFixed(s.production, 2)}{" "}
                       <span className="text-muted">{s.unit ?? ""}</span>
                     </td>
                     <td className="num text-muted">
-                      {fmtNum(s.reserves, 1)} {s.reserve_unit ?? ""}
+                      {fmtFixed(s.reserves, 1)} {s.reserve_unit ?? ""}
                     </td>
-                    <td className="num font-mono text-xs text-muted">{fmtNum(s.lat, 4)}</td>
-                    <td className="num font-mono text-xs text-muted">{fmtNum(s.lon, 4)}</td>
+                    <td className="num text-[11px] text-muted">{fmtFixed(s.lat, 4)}</td>
+                    <td className="num text-[11px] text-muted">{fmtFixed(s.lon, 4)}</td>
                   </tr>
                 ))}
               </tbody>

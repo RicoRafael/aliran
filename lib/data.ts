@@ -174,8 +174,22 @@ export function getTickers(): string[] {
 export const fmtPct = (v: number | null | undefined, digits = 1) =>
   v === null || v === undefined ? "—" : `${(v * 100).toFixed(digits)}%`;
 
+/** Truncating format — for counts and large integers where padding adds noise. */
 export const fmtNum = (v: number | null | undefined, digits = 1) =>
   v === null || v === undefined ? "—" : v.toLocaleString("en-US", { maximumFractionDigits: digits });
+
+/**
+ * Fixed-precision format. Every value in a numeric column must carry the same
+ * number of decimals or tabular figures stop aligning, which defeats the point
+ * of monospacing them.
+ */
+export const fmtFixed = (v: number | null | undefined, digits = 2) =>
+  v === null || v === undefined
+    ? "—"
+    : v.toLocaleString("en-US", {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits,
+      });
 
 export const fmtIDR = (v: number | null | undefined) => {
   if (v === null || v === undefined) return "—";

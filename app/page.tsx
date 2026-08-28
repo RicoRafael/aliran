@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FlagCell } from "@/components/Flag";
-import { fmtNum, fmtPct, getIndex } from "@/lib/data";
+import { fmtFixed, fmtNum, fmtPct, getIndex } from "@/lib/data";
 
 export default function Screener() {
   const idx = getIndex();
@@ -74,18 +74,16 @@ export default function Screener() {
                 <td className="num">{fmtNum(i.exposed_ha_24m, 0)}</td>
                 <td className="num text-muted">{fmtPct(i.lci_12m)}</td>
                 <td className="num">
-                  <FlagCell flag={i.rli_flag}>
-                    {i.rli_years === null ? "—" : fmtNum(i.rli_years, 1)}
-                  </FlagCell>
+                  <FlagCell flag={i.rli_flag}>{fmtFixed(i.rli_years, 1)}</FlagCell>
                 </td>
-                <td className="num text-ink">{fmtNum(i.strip_ratio_latest, 2)}</td>
+                <td className="num text-ink">{fmtFixed(i.strip_ratio_latest, 2)}</td>
                 <td className="num">
                   {i.strip_ratio_slope === null ? (
                     <span className="text-dim">—</span>
                   ) : (
                     <FlagCell flag={i.strip_flag}>
-                      {i.strip_ratio_slope > 0 ? "▲" : i.strip_ratio_slope < 0 ? "▼" : "—"}
-                      {fmtNum(Math.abs(i.strip_ratio_slope), 2)}
+                      {i.strip_ratio_slope > 0 ? "▲" : i.strip_ratio_slope < 0 ? "▼" : " "}
+                      {fmtFixed(Math.abs(i.strip_ratio_slope), 2)}
                     </FlagCell>
                   )}
                 </td>
@@ -93,12 +91,15 @@ export default function Screener() {
                   {i.reserve_replacement_ratio === null ? (
                     <span className="text-dim">—</span>
                   ) : i.reserve_replacement_outlier ? (
-                    <span className="text-dim" title="Magnitude indicates a reserve restatement, not a replacement rate">
-                      {fmtNum(i.reserve_replacement_ratio, 2)}*
+                    <span
+                      className="text-dim"
+                      title="Magnitude indicates a reserve restatement, not a replacement rate"
+                    >
+                      {fmtFixed(i.reserve_replacement_ratio, 2)}*
                     </span>
                   ) : (
                     <FlagCell flag={i.reserve_replacement_flag}>
-                      {fmtNum(i.reserve_replacement_ratio, 2)}
+                      {fmtFixed(i.reserve_replacement_ratio, 2)}
                     </FlagCell>
                   )}
                 </td>
