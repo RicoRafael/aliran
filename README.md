@@ -40,20 +40,26 @@ Equity analysts pricing resource issuers, fund managers checking for permit risk
 
 ```bash
 npm install
-npm run build && npm start
+npm run build
+npm start
 ```
 
-Reads the committed `data/strata.sqlite`. No API key required, nothing fetched.
+Then open http://localhost:3000. The pages are statically generated at build time from the committed JSON in `data/web/`, so there is no database, no native module and no API key involved — nothing is fetched at runtime.
+
+`data/strata.sqlite` is also committed, but it is the analysis surface for ad-hoc SQL rather than the site's data source.
 
 **Refreshing the data** — requires a Sectors API key:
 
 ```bash
 pip install -r etl/requirements.txt
-cp etl/.env.example etl/.env
-python etl/spike.py
+cp etl/.env.example etl/.env    # paste your key into etl/.env
+python etl/run_t1.py            # universe, licences, ownership, entity resolution
+python etl/run_t2.py            # performance, sites, equity, metrics, exports
 ```
 
-Responses are cached to `fixtures/raw/` on first fetch, so re-runs cost zero credits.
+`etl/spike.py` is the schema probe that established the API's real shapes; it is kept for the record and is not part of the pipeline.
+
+Every response is cached to `fixtures/raw/` on first fetch, so re-runs cost **zero** credits. The client refuses any call that would exceed its tranche cap, and logs every billed call to `docs/credit-ledger.jsonl`.
 
 **Tests** — no network:
 
