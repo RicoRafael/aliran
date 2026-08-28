@@ -67,6 +67,12 @@ def envelope(payload: Any) -> dict[str, Any]:
     return {"top_level_keys": f"<{type(payload).__name__}>", "pagination": None}
 
 
+def total_count(payload: Any) -> int | None:
+    if isinstance(payload, dict) and isinstance(payload.get("pagination"), dict):
+        return payload["pagination"].get("total_count")
+    return None
+
+
 def key_union(rows: list[dict]) -> list[str]:
     ks: set[str] = set()
     for r in rows[:200]:
@@ -78,11 +84,11 @@ def key_union(rows: list[dict]) -> list[str]:
 def probe(name: str, question: str):
     """Decorator: isolate a probe, capture result or traceback into findings."""
     def wrap(fn):
-        def run(client: Sectors) -> Any:
+        def run(client: Sectors, **kwargs) -> Any:
             print(f"\n── {name}: {question}")
             before = client.spent
             try:
-                result = fn(client)
+                result = fn(client, **kwargs)
                 findings.append({
                     "probe": name, "question": question, "ok": True,
                     "credits": client.spent - before, "result": result,
@@ -138,9 +144,12 @@ def p2(c: Sectors):
         "limit_above_100_honoured": len(rows200) > len(rows100),
         "envelope": envelope(page100),
         "row_keys": key_union(rows100),
+        "total_count": total_count(page100),
         "companies_scanned": len(all_rows),
         "companies_with_symbol": len(with_symbol),
-        "distinct_symbols": sorted({r["symbol"] for r in with_symbol})[:40],
+        "distinct_symbols": sorted({r["symbol"] for r in with_symbol})[:60],
+        "listed_company_slugs": [r["slug"] for r in with_symbol if r.get("slug")],
+        "any_company_slugs": [r["slug"] for r in all_rows if r.get("slug")][:10],
         "company_type_breakdown": _tally(all_rows, "company_type"),
     }
 
@@ -184,6 +193,64 @@ def p4(c: Sectors):
         "A3_VIABLE": len(multi) >= 10,
         "multi_year_examples": dict(list(multi.items())[:5]),
         "row_keys": key_union(rows),
+    }
+
+
+@probe("P3b", "Do licenses that matter (Coal/Nickel/Gold/Copper) carry company_slug?")
+def p3b(c: Sectors):
+    out = {}
+    for commodity in ("Coal", "Nickel"):
+        page = c.get("/v2/mining/licenses/", {"limit": 30, "commodity_type": commodity, "order_by": "-licensed_area_ha"})
+        rows = rows_of(page)
+        linked = [r for r in rows if r.get("company_slug")]
+        out[commodity] = {
+            "total_count": total_count(page),
+            "rows": len(rows),
+            "with_company_slug": len(linked),
+            "slug_density": round(len(linked) / len(rows), 3) if rows else None,
+            "example_slugs": sorted({r["company_slug"] for r in linked})[:8],
+            "example_names": [r.get("company_name") for r in rows[:4]],
+            "largest_area_ha": rows[0].get("licensed_area_ha") if rows else None,
+        }
+    any_linked = any(v["with_company_slug"] > 0 for v in out.values())
+    return {"by_commodity": out, "LICENSE_JOIN_VIABLE": any_linked}
+
+
+@probe("P4b", "Is strip_ratio populated for Coal, and do earlier years exist?")
+def p4b(c: Sectors):
+    out = {}
+    for commodity in ("Coal", "Nickel", "Gold"):
+        page = c.get("/v2/mining/sites/", {"limit": 30, "commodity_type": commodity, "order_by": "-year"})
+        rows = rows_of(page)
+        with_strip = [r for r in rows if r.get("strip_ratio") is not None]
+        out[commodity] = {
+            "total_count": total_count(page),
+            "rows": len(rows),
+            "years": sorted({r.get("year") for r in rows if r.get("year")}),
+            "with_strip_ratio": len(with_strip),
+            "with_production": sum(1 for r in rows if r.get("production_volume") is not None),
+            "units": sorted({str(r.get("unit")) for r in rows})[:5],
+            "with_company_slug": sum(1 for r in rows if r.get("company_slug")),
+            "site_slugs": [r["slug"] for r in rows if r.get("slug")][:6],
+            "company_slugs": sorted({r["company_slug"] for r in rows if r.get("company_slug")})[:6],
+        }
+
+    # Probe explicitly for an earlier year to see whether history exists at all.
+    hist = c.get("/v2/mining/sites/", {"limit": 30, "commodity_type": "Coal", "year": 2023})
+    hist_rows = rows_of(hist)
+    out["coal_2023_probe"] = {
+        "total_count": total_count(hist),
+        "rows": len(hist_rows),
+        "with_strip_ratio": sum(1 for r in hist_rows if r.get("strip_ratio") is not None),
+    }
+
+    strip_ok = any(v.get("with_strip_ratio", 0) > 0 for k, v in out.items() if k != "coal_2023_probe")
+    multi_year = len(hist_rows) > 0
+    return {
+        "by_commodity": out,
+        "STRIP_RATIO_AVAILABLE": strip_ok,
+        "MULTI_YEAR_AVAILABLE": multi_year,
+        "A3_VIABLE": strip_ok and multi_year,
     }
 
 
@@ -339,7 +406,10 @@ def write_report(client: Sectors) -> None:
         "",
         f"- **API access works:** `{look('P1', 'authenticated')}`",
         f"- **Ownership `symbol` join confirmed (P6):** `{look('P6', 'JOIN_CONFIRMED')}`",
-        f"- **A3 strip-ratio drift viable (P4):** `{look('P4', 'A3_VIABLE')}`",
+        f"- **License→company join viable (P3b):** `{look('P3b', 'LICENSE_JOIN_VIABLE')}`",
+        f"- **strip_ratio populated anywhere (P4b):** `{look('P4b', 'STRIP_RATIO_AVAILABLE')}`",
+        f"- **Multi-year site history (P4b):** `{look('P4b', 'MULTI_YEAR_AVAILABLE')}`",
+        f"- **A3 strip-ratio drift viable (P4b):** `{look('P4b', 'A3_VIABLE')}`",
         f"- **Track B viable (P7):** `{look('P7', 'TRACK_B_VIABLE')}`",
         f"- **Screener supplies ownership fields (P8):** `{look('P8', 'SAVES_COMPANY_REPORT_CREDITS')}`",
         "",
@@ -377,27 +447,34 @@ def main() -> int:
     try:
         p1(client)
         r2 = p2(client)
+        p3(client)
+        r3b = p3b(client)
+        p4(client)
+        r4b = p4b(client)
 
-        # Self-bootstrap: derive real slugs from P2 rather than hardcoding any.
-        slugs: list[str] = []
-        if r2:
-            scanned = [s for s in (r2.get("distinct_symbols") or [])]
-            print(f"     (bootstrapped {len(scanned)} symbols for downstream probes)")
+        # Self-bootstrap downstream probes from whatever real slugs we found.
+        # Prefer LISTED companies — those are the ones the product is about.
+        company_slugs: list[str] = []
         site_slugs: list[str] = []
 
-        r3 = p3(client)
-        r4 = p4(client)
-        if r4:
-            site_slugs = list(r4.get("multi_year_examples", {}).keys())
-        if not site_slugs and r4:
-            site_slugs = []
+        if r2:
+            company_slugs += r2.get("listed_company_slugs") or []
+            company_slugs += r2.get("any_company_slugs") or []
+        if r3b:
+            for v in (r3b.get("by_commodity") or {}).values():
+                company_slugs += v.get("example_slugs") or []
+        if r4b:
+            for k, v in (r4b.get("by_commodity") or {}).items():
+                if k == "coal_2023_probe":
+                    continue
+                site_slugs += v.get("site_slugs") or []
+                company_slugs += v.get("company_slugs") or []
+
+        company_slugs = list(dict.fromkeys(s for s in company_slugs if s))
+        site_slugs = list(dict.fromkeys(s for s in site_slugs if s))
+        print(f"\n     bootstrapped {len(company_slugs)} company slugs, {len(site_slugs)} site slugs")
 
         p5(client, slugs=site_slugs)
-
-        # Company slugs for ownership / sales-destination probes.
-        company_slugs: list[str] = []
-        if r3:
-            company_slugs = [r.get("company_slug") for r in (r3.get("sample") or []) if r.get("company_slug")]
         p6(client, slugs=company_slugs)
         p7(client)
         p8(client)

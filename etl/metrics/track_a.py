@@ -124,10 +124,21 @@ def _parse_date(value: Any) -> dt.date | None:
 
 
 def _is_cnc(value: Any) -> bool:
-    """`cnc` arrives as a string of unverified vocabulary — treat only explicit positives as clean."""
+    """
+    Clear & Clean status.
+
+    Spike P3 observed values 'CNC', 'CNC-1', 'CNC-8', 'CNC-27' — the suffix is a
+    certificate batch, not a negation, so any CNC-prefixed value counts as clean.
+    Null/empty stays unclean so unknown status still attracts the risk weight.
+    """
     if isinstance(value, bool):
         return value
-    return str(value or "").strip().lower() in {"cnc", "clear and clean", "clear & clean", "true", "yes", "y", "1"}
+    text = str(value or "").strip().lower()
+    if not text or text in {"none", "null", "-"}:
+        return False
+    if text.startswith("cnc"):
+        return True
+    return text in {"clear and clean", "clear & clean", "true", "yes", "y", "1"}
 
 
 def license_cliff_index(

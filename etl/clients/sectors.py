@@ -139,11 +139,15 @@ class Sectors:
         time.sleep(0.35)  # docs are explicit: sleep(0.3) is not optional
         return data
 
+    # Spike P2/P3 measured the server cap: limit is clamped to 30 regardless of
+    # what you ask for. Requesting more just wastes the round trip.
+    MAX_LIMIT = 30
+
     def paginate(
         self,
         path: str,
         params: dict[str, Any] | None = None,
-        limit: int = 100,
+        limit: int = MAX_LIMIT,
         max_pages: int = 40,
         cost_per_page: int = 1,
     ) -> Iterator[dict]:

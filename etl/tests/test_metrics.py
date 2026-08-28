@@ -155,6 +155,21 @@ def test_lci_applies_attributable_share():
     assert r["lci_12m"] == pytest.approx(68.0 / 168.0)
 
 
+@pytest.mark.parametrize("cnc_value", ["CNC", "CNC-1", "CNC-8", "CNC-27", "cnc"])
+def test_lci_treats_all_cnc_variants_as_clean(cnc_value):
+    """Spike P3 observed CNC, CNC-1, CNC-8, CNC-27. The suffix is a certificate
+    batch, not a negation, so none of them should attract the risk weight."""
+    r = license_cliff_index([_lic("s", "2040-01-01", 100, cnc=cnc_value)], AS_OF)
+    assert r["total_ha_weighted"] == pytest.approx(100.0)
+
+
+@pytest.mark.parametrize("cnc_value", [None, "", "-", "Non CNC", "pending"])
+def test_lci_treats_unknown_cnc_as_unclean(cnc_value):
+    """Unknown status must still attract the 1.5x renewal-risk weight."""
+    r = license_cliff_index([_lic("s", "2040-01-01", 100, cnc=cnc_value)], AS_OF)
+    assert r["total_ha_weighted"] == pytest.approx(150.0)
+
+
 def test_lci_flags():
     assert license_cliff_index([_lic("s", "2026-06-01", 100)], AS_OF)["flag"] == "red"
     neutral = license_cliff_index(
