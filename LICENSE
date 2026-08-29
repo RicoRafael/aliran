@@ -1,0 +1,73 @@
+STRATA — Source-Available Licence
+Copyright (c) 2026 Rico Rafael. All rights reserved.
+
+This repository is published publicly so that it can be read, evaluated and
+verified. It is NOT open source. Publication is not a grant of reuse.
+
+
+1. WHAT YOU MAY DO
+
+   You may view, clone, build and run this software for the purpose of
+   evaluating, reviewing, auditing or verifying it, including verifying the
+   claims it makes about its own data.
+
+   You may quote short excerpts for commentary, journalism, review or academic
+   citation, with attribution.
+
+
+2. WHAT YOU MAY NOT DO WITHOUT WRITTEN PERMISSION
+
+   You may not copy, reproduce, modify, adapt, translate, merge, publish,
+   redistribute, sublicense, sell or otherwise exploit this software or any
+   substantial part of it.
+
+   You may not use it, in whole or in part, in any product or service, whether
+   commercial or non-commercial.
+
+   You may not remove or alter this notice.
+
+   Written permission may be requested from the copyright holder.
+
+
+3. DATA
+
+   The datasets in data/ and fixtures/ are derived from the Sectors Financial
+   API and from Indonesian government records published via the ESDM Minerba
+   portal. They are included solely so that a reviewer can reproduce the build
+   without API credentials.
+
+   They remain subject to the terms of their originating sources, which take
+   precedence over this licence. Nothing here grants any right to redistribute
+   or commercially exploit that data. See DATA.md.
+
+
+4. HACKATHON GRANT
+
+   This project was submitted to Sectors Hackathon 2026. Nothing in this
+   licence limits the rights the competition rules already grant the
+   organisers. Specifically, Sectors and Supertype may display, publish and
+   promote this submission — including videos, screenshots, project name and
+   participant names — on their websites, social media, newsletters and
+   promotional materials, without further permission or compensation.
+
+   The repository will remain public for at least 90 days following the
+   announcement of winners, as the competition rules require.
+
+
+5. MACHINE LEARNING
+
+   No permission is granted to use this repository, or any part of it, as
+   training, fine-tuning or evaluation data for machine learning models.
+
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR ITS USE.
+
+   This software is an information and analysis tool. It does not provide
+   investment advice. See the disclaimer in README.md.

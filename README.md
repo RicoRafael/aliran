@@ -83,6 +83,14 @@ Linking a government-registered company to an exchange ticker is genuinely ambig
 
 Hand-reviewed mappings in `etl/overrides/entity_map.yaml` are committed on purpose — where we resolved something manually, you can check it. `docs/credit-ledger.jsonl` logs every billed API call. `docs/thresholds.md` explains every flag boundary, including the judgement calls.
 
+## Licence and data
+
+**This repository is source-available, not open source.** It is public so it can be read, evaluated and verified — including verifying the claims it makes about its own data. It is not licensed for reuse, redistribution or commercial use, and not licensed as machine-learning training data. See [LICENSE](LICENSE).
+
+The committed data is a derived extract of the **Sectors Financial API**, retrieved with hackathon credits. It is included so a reviewer can reproduce the build without credentials, and it remains subject to Sectors' terms — which take precedence over this repository's licence. See [DATA.md](DATA.md).
+
+Nothing here limits the publicity rights the competition rules grant Sectors and Supertype.
+
 ---
 
 ## Disclaimer

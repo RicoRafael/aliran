@@ -70,6 +70,31 @@ against your figure?
 
 ---
 
+## 4. `#support` — committing derived data to a public repository
+
+> **Why:** the rules require the repository to stay public for 90 days after winners are announced, and a judge should be able to clone it and run the product without credits. That means a derived extract of Sectors data is committed. Worth confirming that is acceptable — it protects both sides, and if it is not, far better to know before judging than after.
+
+```
+Hi — a terms question about what we commit to our public repo.
+
+Our project caches Sectors API responses and derives a dataset from them
+(mining licences, sites, ownership edges, computed metrics). We've committed
+that to the public repository so judges can clone it and run the product
+end to end without an API key and without spending credits — which also
+lets them verify the numbers aren't hand-written for the demo.
+
+That does mean a derived extract of Sectors data sits in a public repo that
+the rules require us to keep public for 90 days after the announcement.
+
+Is that acceptable under the API terms? We've added a DATA.md stating the
+provenance, that it's included for build reproducibility only, and that it
+is not licensed for redistribution or reuse. Happy to reduce it to a small
+sample instead if you'd prefer — it would weaken the reproducibility story
+but we'd rather ask than assume.
+```
+
+---
+
 ## Rules to keep in mind while posting
 
 - Code of conduct applies on Slack. Keep it professional.

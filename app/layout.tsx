@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   title: "STRATA — physical asset intelligence for IDX resource issuers",
   description:
     "Links IDX-listed resource companies, through their ownership trees, to the mining licences, reserves and production sites that back their valuation.",
+  // Advisory only — compliant crawlers honour these, others ignore them.
+  // The enforceable position is LICENSE section 5. See also public/robots.txt.
+  other: {
+    noai: "true",
+    noimageai: "true",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
